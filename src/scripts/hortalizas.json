@@ -1,0 +1,387 @@
+[
+    {
+        "id": 1,
+        "producto": "Acelga",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 1,
+        "precio": 22.00
+    },
+    {
+        "id": 2,
+        "producto": "Alcachofa",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 6,
+        "precio": 22.00
+    },
+    {
+        "id": 3,
+        "producto": "Amaranto",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 386,
+        "precio": 30.00
+    },
+    {
+        "id": 4,
+        "producto": "Arugula",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 368,
+        "precio": 22.00
+    },
+    {
+        "id": 5,
+        "producto": "Berenjena",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 16,
+        "precio": 22.00
+    },
+    {
+        "id": 6,
+        "producto": "Berro de Agua",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 17,
+        "precio": 22.00
+    },
+    {
+        "id": 7,
+        "producto": "Brocoli",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 372,
+        "precio": 30.00
+    },
+    {
+        "id": 8,
+        "producto": "Calabacin",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 20,
+        "precio": 22.00
+    },
+    {
+        "id": 9,
+        "producto": "Cebolla blanca",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 34,
+        "precio": 30.00
+    },
+    {
+        "id": 10,
+        "producto": "Cebolla Roja",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 42,
+        "precio": 30.00
+    },
+    {
+        "id": 11,
+        "producto": "Cebollin",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 46,
+        "precio": 22.00
+    },
+    {
+        "id": 12,
+        "producto": "Chile Jalapeño",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 55,
+        "precio": 22.00
+    },
+    {
+        "id": 13,
+        "producto": "Chile Peperone Picante-CAYENNE",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 60,
+        "precio": 22.00
+    },
+    {
+        "id": 14,
+        "producto": "Chile Pimiento Corto",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 216,
+        "precio": 22.00
+    },
+    {
+        "id": 15,
+        "producto": "Chile Pimiento Largo",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 222,
+        "precio": 22.00
+    },
+    {
+        "id": 16,
+        "producto": "Chile Sigarreta",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 62,
+        "precio": 22.00
+    },
+    {
+        "id": 17,
+        "producto": "Chipilin",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 385,
+        "precio": 30.00
+    },
+    {
+        "id": 18,
+        "producto": "Col de Bruselas",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 81,
+        "precio": 22.00
+    },
+    {
+        "id": 19,
+        "producto": "Col de Milan",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 80,
+        "precio": 22.00
+    },
+    {
+        "id": 20,
+        "producto": "Coliflor",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 84,
+        "precio": 22.00
+    },
+    {
+        "id": 21,
+        "producto": "Esparrago",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 98,
+        "precio": 22.00
+    },
+    {
+        "id": 22,
+        "producto": "Espinaca",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 100,
+        "precio": 22.00
+    },
+    {
+        "id": 23,
+        "producto": "Fresa",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 129,
+        "precio": 22.00
+    },
+    {
+        "id": 24,
+        "producto": "Frijol Ejotero",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 276,
+        "precio": 30.00
+    },
+    {
+        "id": 25,
+        "producto": "Guisante",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 145,
+        "precio": 22.00
+    },
+    {
+        "id": 26,
+        "producto": "Haba",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 152,
+        "precio": 30.00
+    },
+    {
+        "id": 27,
+        "producto": "Hierbamora",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 161,
+        "precio": 22.00
+    },
+    {
+        "id": 28,
+        "producto": "Jamaica",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 388,
+        "precio": 30.00
+    },
+    {
+        "id": 29,
+        "producto": "Lechuga",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 171,
+        "precio": 22.00
+    },
+    {
+        "id": 30,
+        "producto": "Lechuga Roja",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 176,
+        "precio": 22.00
+    },
+    {
+        "id": 31,
+        "producto": "Lechuga Romana",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 166,
+        "precio": 22.00
+    },
+    {
+        "id": 32,
+        "producto": "Maiz Dulce",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 179,
+        "precio": 37.00
+    },
+    {
+        "id": 33,
+        "producto": "Melon",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 184,
+        "precio": 22.00
+    },
+    {
+        "id": 34,
+        "producto": "Mezcla de Ensaladas",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 188,
+        "precio": 22.00
+    },
+    {
+        "id": 35,
+        "producto": "Mezcla de Hierbas p/C",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 189,
+        "precio": 22.00
+    },
+    {
+        "id": 36,
+        "producto": "Miltomate",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 274,
+        "precio": 30.00
+    },
+    {
+        "id": 37,
+        "producto": "Mix de hortalizas para semilleros",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 407,
+        "precio": 37.00
+    },
+    {
+        "id": 38,
+        "producto": "Mix de hortalizas para siembra directa",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 409,
+        "precio": 37.00
+    },
+    {
+        "id": 39,
+        "producto": "Mix de plantas para chirmol/Salsa Roja",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 412,
+        "precio": 37.00
+    },
+    {
+        "id": 40,
+        "producto": "Mix de Plantas para chirmol/Salsa Verde",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 413,
+        "precio": 37.00
+    },
+    {
+        "id": 41,
+        "producto": "Mix de plantas para salsa picante",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 411,
+        "precio": 37.00
+    },
+    {
+        "id": 42,
+        "producto": "Mostaza",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 369,
+        "precio": 22.00
+    },
+    {
+        "id": 43,
+        "producto": "Nabo Blanco",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 192,
+        "precio": 22.00
+    },
+    {
+        "id": 44,
+        "producto": "Okra",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 193,
+        "precio": 22.00
+    },
+    {
+        "id": 45,
+        "producto": "Pepino",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 202,
+        "precio": 22.00
+    },
+    {
+        "id": 46,
+        "producto": "Puerro",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 228,
+        "precio": 22.00
+    },
+    {
+        "id": 47,
+        "producto": "Rabano",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 233,
+        "precio": 22.00
+    },
+    {
+        "id": 48,
+        "producto": "Remolacha",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 252,
+        "precio": 22.00
+    },
+    {
+        "id": 49,
+        "producto": "Repollo",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 257,
+        "precio": 22.00
+    },
+    {
+        "id": 50,
+        "producto": "Repollo Rojo",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 262,
+        "precio": 22.00
+    },
+    {
+        "id": 51,
+        "producto": "Sandia Larga",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 268,
+        "precio": 22.00
+    },
+    {
+        "id": 52,
+        "producto": "Sandia Redonda",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 267,
+        "precio": 22.00
+    },
+    {
+        "id": 53,
+        "producto": "Tomate Largo",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 272,
+        "precio": 30.00
+    },
+    {
+        "id": 54,
+        "producto": "Tomate Redondo",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 271,
+        "precio": 37.00
+    },
+    {
+        "id": 55,
+        "producto": "Zanahoria Berlicum",
+        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo": 286,
+        "precio": 22.00
+    }
+]

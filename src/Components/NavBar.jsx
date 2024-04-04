@@ -3,6 +3,8 @@ import menuT from "/menuToggle.svg";
 import logo from "/LOGO_AGRICULTURA.jpg";
 import car from "/icon-cart.svg";
 import iconMenu from "/icon-menu.svg";
+
+
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [carBuy, setCarBuy] = useState(false);
@@ -56,12 +58,14 @@ export default function NavBar() {
           <a href="">Contacto</a>
           <a href="">Acerca de nosotros</a>
 
+
           <button className="relative" onClick={toggleCar}>
             <img src={car} alt="" className="w-[22px] h-[20px]" />
             <span className="right-0 absolute top-0 translate-x-4 rounded-full bg-orange-primary px-2 text-xs font-bold text-white">
               0
             </span>
           </button>
+
         </div>
       </div>
 

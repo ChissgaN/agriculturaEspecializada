@@ -16,7 +16,7 @@ function SliderImg() {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container max-md:w-screen">
       <Slider {...settings}>
         <div className="my-2 flex">
           <img

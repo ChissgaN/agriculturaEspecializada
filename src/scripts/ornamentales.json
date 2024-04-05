@@ -1,0 +1,367 @@
+[
+    {
+      "id": 1,
+      "producto": "Aleli",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 8,
+      "precio": 22.00
+    },
+    {
+      "id": 2,
+      "producto": "Antirrino",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 9,
+      "precio": 22.00
+    },
+    {
+      "id": 3,
+      "producto": "Cactus",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 19,
+      "precio": 22.00
+    },
+    {
+      "id": 4,
+      "producto": "Calendula",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 30,
+      "precio": 22.00
+    },
+    {
+      "id": 5,
+      "producto": "Campanula",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 31,
+      "precio": 22.00
+    },
+    {
+      "id": 6,
+      "producto": "Capuchina",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 33,
+      "precio": 22.00
+    },
+    {
+      "id": 7,
+      "producto": "Celosia Plumosa",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 52,
+      "precio": 22.00
+    },
+    {
+      "id": 8,
+      "producto": "Centaurea",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 53,
+      "precio": 22.00
+    },
+    {
+      "id": 9,
+      "producto": "Cipress Piramidal",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 429,
+      "precio": 37.00
+    },
+    {
+      "id": 10,
+      "producto": "Clavel Amarillo",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 72,
+      "precio": 22.00
+    },
+    {
+      "id": 11,
+      "producto": "Clavel Blanco",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 73,
+      "precio": 22.00
+    },
+    {
+      "id": 12,
+      "producto": "Clavel Mix Claro",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 76,
+      "precio": 22.00
+    },
+    {
+      "id": 13,
+      "producto": "Clavel Mix Oscuro",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 77,
+      "precio": 22.00
+    },
+    {
+      "id": 14,
+      "producto": "Clavel Rojo",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 78,
+      "precio": 22.00
+    },
+    {
+      "id": 15,
+      "producto": "Coleus Variados",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 83,
+      "precio": 22.00
+    },
+    {
+      "id": 16,
+      "producto": "Cosmos variados",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 91,
+      "precio": 22.00
+    },
+    {
+      "id": 17,
+      "producto": "Crisantemo",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 92,
+      "precio": 22.00
+    },
+    {
+      "id": 18,
+      "producto": "Delphinium",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 93,
+      "precio": 22.00
+    },
+    {
+      "id": 19,
+      "producto": "Digital",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 94,
+      "precio": 22.00
+    },
+    {
+      "id": 20,
+      "producto": "Estatice Amarillo",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 105,
+      "precio": 22.00
+    },
+    {
+      "id": 21,
+      "producto": "Estatice Azul",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 108,
+      "precio": 22.00
+    },
+    {
+      "id": 22,
+      "producto": "Estatice Blanco",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 111,
+      "precio": 22.00
+    },
+    {
+      "id": 23,
+      "producto": "Estatice Mix",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 114,
+      "precio": 22.00
+    },
+    {
+      "id": 24,
+      "producto": "Estatice Rojo",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 120,
+      "precio": 22.00
+    },
+    {
+      "id": 25,
+      "producto": "Estrelicia",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 126,
+      "precio": 37.00
+    },
+    {
+      "id": 26,
+      "producto": "Flores Anuales",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 127,
+      "precio": 22.00
+    },
+    {
+      "id": 27,
+      "producto": "Flox",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 128,
+      "precio": 22.00
+    },
+    {
+      "id": 28,
+      "producto": "Gerbera",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 131,
+      "precio": 37.00
+    },
+    {
+      "id": 29,
+      "producto": "Gipsophilia",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 132,
+      "precio": 22.00
+    },
+    {
+      "id": 30,
+      "producto": "Girasol",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 142,
+      "precio": 22.00
+    },
+    {
+      "id": 31,
+      "producto": "Girasol de Centro",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 143,
+      "precio": 22.00
+    },
+    {
+      "id": 32,
+      "producto": "Guisantes de Olor",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 151,
+      "precio": 22.00
+    },
+    {
+      "id": 33,
+      "producto": "Ipomea V",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 164,
+      "precio": 22.00
+    },
+    {
+      "id": 34,
+      "producto": "Margarita botoncitos",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 180,
+      "precio": 22.00
+    },
+    {
+      "id": 35,
+      "producto": "Margarita Gigante",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 181,
+      "precio": 22.00
+    },
+    {
+      "id": 36,
+      "producto": "Miosotis de los Alpes",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 190,
+      "precio": 22.00
+    },
+    {
+      "id": 37,
+      "producto": "Miramelindo",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 191,
+      "precio": 22.00
+    },
+    {
+      "id": 38,
+      "producto": "Mix de flores para abejas y otros insectos beneficos",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 406,
+      "precio": 37.00
+    },
+    {
+      "id": 39,
+      "producto": "Pensamiento Amarillo",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 196,
+      "precio": 22.00
+    },
+    {
+      "id": 40,
+      "producto": "Pensamiento Azul",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 197,
+      "precio": 22.00
+    },
+    {
+      "id": 41,
+      "producto": "Pensamiento Mix",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 200,
+      "precio": 22.00
+    },
+    {
+      "id": 42,
+      "producto": "Petunia Colgante",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 212,
+      "precio": 22.00
+    },
+    {
+      "id": 43,
+      "producto": "Petunia Grande",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 213,
+      "precio": 37.00
+    },
+    {
+      "id": 44,
+      "producto": "Petunia Grandiflora",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 214,
+      "precio": 22.00
+    },
+    {
+      "id": 45,
+      "producto": "Pimiento Ornamental",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 221,
+      "precio": 22.00
+    },
+    {
+      "id": 46,
+      "producto": "Reina Marg. Belleza",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 243,
+      "precio": 22.00
+    },
+    {
+      "id": 47,
+      "producto": "Reina Marg. Mix",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 241,
+      "precio": 22.00
+    },
+    {
+      "id": 48,
+      "producto": "Siempreviva",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 270,
+      "precio": 22.00
+    },
+    {
+      "id": 49,
+      "producto": "Thuja",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 430,
+      "precio": 37.00
+    },
+    {
+      "id": 50,
+      "producto": "Verdolaga",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 284,
+      "precio": 22.00
+    },
+    {
+      "id": 51,
+      "producto": "Violeta",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 285,
+      "precio": 22.00
+    },
+    {
+      "id": 52,
+      "producto": "Zinnia",
+      "codigo_de_barras": "#¡DESCONOCIDO!",
+      "codigo": 291,
+      "precio": 22.00
+    }
+  ]
+  

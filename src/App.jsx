@@ -12,10 +12,14 @@ function App() {
       <div className="md:w-full">
         <NavBar />
 
+
+   
+
      
        
 
         <div className="relative h-auto">
+
           <SliderImg />
           <div className="absolute inset-0 flex w-[100%]">
             <Beginning />
@@ -23,7 +27,13 @@ function App() {
         </div>
 
       </div>
+     
+     <div className="flex justify-center  my-10 ">
+     <div className=" grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6">
       <Categorias/>
+      </div>
+      
+     </div>
       
     </NextUIProvider>
   );

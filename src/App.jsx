@@ -9,12 +9,19 @@ function App() {
   
   return (
     <NextUIProvider>
-      <div className="">
+      <div className="md:w-full">
         <NavBar />
 
-        <div className="relative h-full">
+
+   
+
+     
+       
+
+        <div className="relative h-auto">
+
           <SliderImg />
-          <div className="absolute inset-0 flex w-[70%]">
+          <div className="absolute inset-0 flex w-[100%]">
             <Beginning />
           </div>
         </div>

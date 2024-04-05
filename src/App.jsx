@@ -1,15 +1,16 @@
-import './App.css'
-import NavBar from './Components/NavBar'
-import SliderImg from './Components/Slider'
-
+import "./App.css";
+import NavBar from "./Components/NavBar";
+import SliderImg from "./Components/Slider";
+import { NextUIProvider } from "@nextui-org/react";
 function App() {
-
   return (
-    <div>
-      <NavBar/>
-      <SliderImg/>
-    </div>
-  )
+    <NextUIProvider>
+      <div className="">
+        <NavBar />
+        <SliderImg />
+      </div>
+    </NextUIProvider>
+  );
 }
 
-export default App
+export default App;

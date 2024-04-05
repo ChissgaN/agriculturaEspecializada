@@ -12,9 +12,6 @@ function App() {
       <div className="">
         <NavBar />
 
-     
-       
-
         <div className="relative h-full">
           <SliderImg />
           <div className="absolute inset-0 flex w-[70%]">
@@ -23,7 +20,13 @@ function App() {
         </div>
 
       </div>
+     
+     <div className="flex justify-center  my-10 ">
+     <div className=" grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6">
       <Categorias/>
+      </div>
+      
+     </div>
       
     </NextUIProvider>
   );

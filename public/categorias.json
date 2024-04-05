@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "imgProyect": "manzanilla.jpeg",
+        "tituloCategoria": "AROMÁTICAS"
+    },{
+        "id": 2,
+        "imgProyect": "manzanilla.jpeg",
+        "tituloCategoria": "BULBOS"
+    },
+    {
+        "id": 3,
+        "imgProyect": "manzanilla.jpeg",
+        "tituloCategoria": "CESPED"
+    },{
+        "id": 4,
+        "imgProyect": "manzanilla.jpeg",
+        "tituloCategoria": "FLORES"
+    },{
+        "id": 5,
+        "imgProyect": "manzanilla.jpeg",
+        "tituloCategoria": "HORTALIZAS"
+    },{
+        "id": 6,
+        "imgProyect": "manzanilla.jpeg",
+        "tituloCategoria": "CONTENEDORES DE SEMILLAS"
+    }
+]

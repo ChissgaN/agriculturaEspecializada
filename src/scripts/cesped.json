@@ -2,28 +2,28 @@
     {
         "id": 1,
         "producto": "BERMUDA GRASS",
-        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo_de_barras": "#¡DESCONOCIDO!",
         "codigo": 292,
         "precio": 130.00
     },
     {
         "id": 2,
         "producto": "GRAMA 25g",
-        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo_de_barras": "#¡DESCONOCIDO!",
         "codigo": 297,
         "precio": 30.00
     },
     {
         "id": 3,
         "producto": "GRAMA COMPETENCIA DEPORTIVA 1k",
-        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo_de_barras": "#¡DESCONOCIDO!",
         "codigo": 302,
         "precio": 225.00
     },
     {
         "id": 4,
         "producto": "GRAMA PARA SOMBRA",
-        "codigo de barras": "#¡DESCONOCIDO!",
+        "codigo_de_barras": "#¡DESCONOCIDO!",
         "codigo": 431,
         "precio": 82.00
     }

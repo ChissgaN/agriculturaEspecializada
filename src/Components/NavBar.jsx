@@ -3,6 +3,8 @@ import menuT from "/menuToggle.svg";
 import logo from "/logo.png";
 import car from "/icon-cart.svg";
 import iconMenu from "/icon-menu.svg";
+import sinFondo from "/LOGO_AGRICULTURA-edit.png"
+
 import {
   Navbar,
   NavbarBrand,
@@ -27,14 +29,14 @@ export default function NavBar() {
 
   return (
     <div className="">
-      <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-white">
+      <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-green-100">
         <NavbarContent className="mt-4 ">
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             className="sm:hidden mt-5"
           />
           <NavbarBrand>
-            <img src={logo} alt="Logo" className="w-[120px] h-[55px]  " />
+            <img src={sinFondo} alt="Logo" className="w-[120px] h-[55px]  " />
           </NavbarBrand>
         </NavbarContent>
 

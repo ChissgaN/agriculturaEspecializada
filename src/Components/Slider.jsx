@@ -2,7 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import cultivar from "../assets/agricultura/pexels-greta-hoffman-7728082.jpg";
+import sembrar from "../assets/agricultura/pexels-maarten-van-den-heuvel-2284170.jpg";
+import vegetales from "../assets/agricultura/pexels-mark-stebnicki-2252584.jpg";
+import girasoles from "../assets/agricultura/pexels-susanne-jutzeler-sujufoto-1169084.jpg"; 
 
 function SliderImg() {
   const settings = {
@@ -20,29 +23,29 @@ function SliderImg() {
       <Slider {...settings}>
         <div className="my-2 flex">
           <img
-            src="https://img.freepik.com/vector-premium/coleccion-pancartas-verduras_1268-12420.jpg"
-            className="max-sm:h-[290px] sm:h-[430px] w-full"
+            src={cultivar}
+            className="max-sm:h-[290px] sm:h-[450px] w-full h-[250px]"
             alt="derek"
           />
         </div>
         <div className="my-2 flex">
           <img
-            src="https://img.freepik.com/vector-premium/coleccion-pancartas-verduras_1268-12420.jpg"
-            className="max-sm:h-[290px] sm:h-[450px] w-full"
+            src={sembrar}
+            className="max-sm:h-[290px] sm:h-[450px] w-full h-[250px]"
             alt="derek"
           />
         </div>
         <div className="my-2 flex">
           <img
-            src="https://img.freepik.com/vector-premium/coleccion-pancartas-verduras_1268-12420.jpg"
-            className="max-sm:h-[290px] sm:h-[450px] w-full"
+            src={vegetales}
+            className="max-sm:h-[290px] sm:h-[450px] w-full h-[250px]"
             alt="derek"
           />
         </div>
         <div className="my-2 flex">
           <img
-            src="https://img.freepik.com/vector-premium/coleccion-pancartas-verduras_1268-12420.jpg"
-            className="max-sm:h-[290px] sm:h-[450px] w-full"
+            src={girasoles}
+            className="max-sm:h-[290px] sm:h-[450px] w-full h-[250px]"
             alt="derek"
           />
         </div>

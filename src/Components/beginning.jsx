@@ -5,20 +5,27 @@ import search from "/search.svg";
 export default function Beginning() {
   return (
     <section className="beginning-container w-[100%] max-sm:w-screen max-md:w-[100%]">
-      <div className="my-8 w-[100%] border border-blue-500 relative px-6 p-5 max-sm:w-screen max-sm:px-5 max-md:w-[80%]">
-        <h1 className="text-[32px] mb-2">¡Comienza a sembrar hoy!</h1>
-        <div className="flex items-center w-[75%] border border-red-500 max-sm:w-[100%] ">
-          <img src={search} alt="Search" className="mr-2" />
+      <div className="my-8 w-[100%]  relative px-10 p-5 max-sm:w-screen max-sm:px-5 max-md:w-[80%]">
+        <h1 className="text-[35px] mb-2 text-white">
+          ¡Comienza a sembrar hoy!
+        </h1>
+        <div className="flex gap-5"> 
+        <div className="flex items-center w-[50%]  max-sm:w-[100%] bg-white px-3 rounded-[10px] hover:border-[2px] hover:border-gray-500 transition-[5s] hover:scale-110  duration-300 ease-in-out">
+          <img src={search} alt="Search" className="mr-2  hover:rounded-[10px] p-2 transition-[5s]  hover:scale-110  duration-300 ease-in-out" />
           <input
-            className="w-[70%] h-[40px]  p-6 pl-[40px] "
+            className="w-[100%] h-[40px] bg-transparent focus:outline-none"
             type="text"
-            placeholder="¿Qué quieres sembrar?"
+            placeholder="¿Qué quieres sembrar hoy?"
           />
-          <Button color="success" className="ml-4 max-sm:ml-2">
-            Button
-          </Button>
         </div>
+        <Button
+        color="success"
+        className="ml-4 max-sm:ml-2 bg-green-100 hover:bg-green-200 transition-[5s]  hover:scale-110  duration-300 ease-in-out rounded-[10px] py-[13px] px-6 text-gray-500">
+        Buscar
+      </Button>
       </div>
+      </div>
+      
     </section>
   );
 }

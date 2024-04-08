@@ -1,0 +1,18 @@
+@keyframes agrandar {
+    0% {
+        transform: scale(1);
+
+    }
+
+    100% {
+        transform: scale(1.2);
+
+    }
+}
+
+.contenedor:hover .boton {
+    background-color: rgb(31, 107, 57);
+    color: #ffffff;
+    animation: agrandar 0.4s ease-in-out forwards;
+
+}

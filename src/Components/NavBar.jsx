@@ -76,9 +76,9 @@ export default function NavBar() {
             </NavbarItem>
           </NavbarContent>
         }
-        <NavbarMenu>
+        <NavbarMenu className="">
           {menuItems.map((item, index) => (
-            <NavbarMenuItem key={`${item}-${index}`}>
+            <NavbarMenuItem className="mt-5" key={`${item}-${index}`}>
               <Link
                 color={
                   index === 2
@@ -98,10 +98,10 @@ export default function NavBar() {
         </NavbarMenu>
         {carBuy && (
           <div className=" rounded-md bg-white shadow-md absolute right-9 top-28 z-40">
-            <h4 className="px-6 py-8 text-lg font-bold">Cart</h4>
+            <h4 className="px-6 py-8 text-lg font-bold">Carrito de Compras</h4>
             <hr />
 
-            <p className=" text-center py-8">Your cart is empty</p>
+            <p className=" text-center py-8">Tu carrito esta vacio</p>
 
             <article className="grid grid-cols-[1fr_4fr_1fr] items-center gap-6 px-4 py-4">
               <div>

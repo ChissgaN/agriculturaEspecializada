@@ -4,7 +4,7 @@ import "./Botones.css";
 export const Cards = ({ imgProyect, tituloCategoria }) => {
   return (
     <>
-      <div className="2xl:w-[520px] 2xl:h-[490px] xl:w-[420px] xl:h-[400px] lg:w-[320px] lg:h-[280px]  md:w-[390px] md:h-[300px] sm:w-[550px] sm:h-[400px] max-sm:w-[380px] max-sm:h-[300px]  relative my-4 rounded-[10px] overflow-hidden contenedor flex justify-center items-center">
+      <div className=" w-full 2xl:h-[490px]  xl:h-[400px]  lg:h-[280px]   md:h-[300px]  sm:h-[400px]  max-sm:h-[300px]  relative my-4 rounded-[10px] overflow-hidden contenedor flex justify-center items-center">
         <img
           src={imgProyect}
           alt=""
@@ -15,5 +15,6 @@ export const Cards = ({ imgProyect, tituloCategoria }) => {
         </button>
       </div>
     </>
+    
   );
 };

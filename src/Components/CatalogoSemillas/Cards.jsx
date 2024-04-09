@@ -4,7 +4,7 @@ import "./Botones.css";
 export const Cards = ({ imgProyect, tituloCategoria }) => {
   return (
     <>
-      <div className=" w-full 2xl:h-[490px]  xl:h-[400px]  lg:h-[280px]   md:h-[300px]  sm:h-[400px]  max-sm:h-[300px]  relative my-4 rounded-[10px] overflow-hidden contenedor flex justify-center items-center">
+      <div className=" w-full lg:h-[280px]   md:h-[300px]  sm:h-[400px]  max-sm:h-[300px]  relative my-4 rounded-[10px] overflow-hidden contenedor flex justify-center items-center">
         <img
           src={imgProyect}
           alt=""

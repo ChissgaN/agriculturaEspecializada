@@ -1,36 +1,51 @@
 import "./App.css";
-import { Categorias } from "./Components/CatalogoSemillas";
-import NavBar from "./Components/NavBar";
-import SliderImg from "./Components/Slider";
-import { NextUIProvider } from "@nextui-org/react";
-import Beginning from "./Components/beginning";
-import Footer from "./Components/Footer/Footer";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./Components/Main/Main";
+import PagesCards from "./Components/Pages/PagesCards";
 
 function App() {
   return (
-    <NextUIProvider>
-      <div className="md:w-full">
-        <NavBar />
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/Pages" element={<PagesCards />} />
+          {/* <Route path="/Register" element={<Register />} />
+          <Route path="/LayoutAdmin" element={<LayoutAdmin />}>
+            <Route path="Info" element={<Info />} />
+            <Route path="Perfil/:id" element={<Perfil />} />
+            <Route path="usuarios" element={<Usuarios />} />
+            <Route path="dashboard" element={<DashBoard />} />
+            <Route path="roll" element={<Roll />} />
+            <Route path="logs" element={<Logs />} />
+            <Route path="page" element={<Page />} />
+          </Route> */}
+        </Routes>
+      </BrowserRouter>
+    </>
 
-        <div className="relative h-auto">
-          <SliderImg />
-          <div className="absolute inset-0 flex w-[100%]">
-            <Beginning />
-          </div>
-        </div>
-      </div>
-
-      <div className="flex justify-center  my-10 ">
-        <div className=" grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6 w-[90%] ">
-          <Categorias />
-        </div>
-      </div>
-      <section className="h-[20vh]">
-
-     <Footer/>
-
-      </section>
-    </NextUIProvider>
+    /* <NextUIProvider>
+    <div className="md:w-full">
+    <NavBar />
+    
+    <div className="relative h-auto">
+    <SliderImg />
+    <div className="absolute inset-0 flex w-[100%]">
+    <Beginning />
+    </div>
+    </div>
+    </div>
+    
+    <div className="flex justify-center  my-10 ">
+    <div className=" grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6 w-[90%] ">
+    <Categorias />
+    </div>
+    </div>
+    <section className="h-[20vh]">
+    <Footer />
+    </section>
+    </NextUIProvider> */
   );
 }
 

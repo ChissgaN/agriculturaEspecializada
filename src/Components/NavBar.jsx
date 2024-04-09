@@ -3,8 +3,6 @@ import menuT from "/menuToggle.svg";
 import logo from "/logo.png";
 import car from "/icon-cart.svg";
 import iconMenu from "/icon-menu.svg";
-import sinFondo from "/LOGO_AGRICULTURA-edit.png"
-
 import {
   Navbar,
   NavbarBrand,
@@ -29,20 +27,20 @@ export default function NavBar() {
 
   return (
     <div className="">
-      <Navbar onMenuOpenChange={setIsMenuOpen} className=" h-[80px]  ">
-        <NavbarContent className=" ">
+      <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-white">
+        <NavbarContent className="mt-4 ">
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            className="sm:hidden mt-5 "
+            className="sm:hidden mt-5"
           />
           <NavbarBrand>
-            <img src={sinFondo} alt="Logo" className="w-[120px] h-[55px]  " />
+            <img src={logo} alt="Logo" className="w-[120px] h-[55px]  " />
           </NavbarBrand>
         </NavbarContent>
 
-        <NavbarContent className="hidden sm:flex gap-10 " justify="center">
+        <NavbarContent className="hidden sm:flex gap-10 mt-7 " justify="center">
           <NavbarItem>
-            <Link href="#" className="">Productos</Link>
+            <Link href="#">Productos</Link>
           </NavbarItem>
           <NavbarItem isActive>
             <Link href="#" aria-current="page">
@@ -56,7 +54,7 @@ export default function NavBar() {
           </NavbarItem>
         </NavbarContent>
         {
-          <NavbarContent justify="end" className="">
+          <NavbarContent justify="end" className="mt-5">
             <NavbarItem>
               <Button
                 as={Link}
@@ -66,8 +64,8 @@ export default function NavBar() {
                 onClick={toggleCar}
                 className="relative flex items-center"
               >
-                <div className="flex items-center ">
-                  <img src={car} alt="LogoC" className="w-[25px] h-[23px] " />
+                <div className="flex items-center mt-4">
+                  <img src={car} alt="LogoC" className="w-[25px] h-[23px]" />
                   <span className="rounded-xl text-xs px-2 py-1 text-black ml-1">
                     0
                   </span>

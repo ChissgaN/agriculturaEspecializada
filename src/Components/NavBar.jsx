@@ -41,7 +41,7 @@ export default function NavBar() {
           </NavbarBrand>
         </NavbarContent>
 
-        <NavbarContent className="hidden sm:flex gap-10 mt-7 " justify="center">
+        <NavbarContent className="hidden sm:flex gap-10  " justify="center">
           <NavbarItem>
             <Link href="#">Productos</Link>
           </NavbarItem>
@@ -57,7 +57,7 @@ export default function NavBar() {
           </NavbarItem>
         </NavbarContent>
         {
-          <NavbarContent justify="end" className="mt-5">
+          <NavbarContent justify="end" className="max-sm:mt-3">
             <NavbarItem>
               <Button
                 as={Link}
@@ -67,7 +67,7 @@ export default function NavBar() {
                 onClick={toggleCar}
                 className="relative flex items-center"
               >
-                <div className="flex items-center mt-4">
+                <div className="flex items-center ">
                   <img src={car} alt="LogoC" className="w-[25px] h-[23px]" />
                   <span className="rounded-xl text-xs px-2 py-1 text-black ml-1">
                     0

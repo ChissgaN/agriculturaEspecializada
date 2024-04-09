@@ -15,5 +15,6 @@ export const Cards = ({ imgProyect, tituloCategoria }) => {
         </button>
       </div>
     </>
+    
   );
 };

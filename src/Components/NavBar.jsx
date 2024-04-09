@@ -29,7 +29,7 @@ export default function NavBar() {
 
   return (
     <div className="">
-      <Navbar onMenuOpenChange={setIsMenuOpen} className=" h-[80px]  ">
+      <Navbar onMenuOpenChange={setIsMenuOpen} className="fixed h-[80px] bg-white  z-50">
         <NavbarContent className=" ">
           <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}

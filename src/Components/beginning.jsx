@@ -4,7 +4,7 @@ import search from "/search.svg";
 
 export default function Beginning() {
   return (
-    <section className="beginning-container w-[100%] max-sm:w-screen max-md:w-[100%]">
+    <section className="beginning-container w-[100%] max-sm:w-screen max-md:w-[100%] md:mt-12">
       <div className="my-8 w-[100%]  relative px-10 p-5 max-sm:w-screen max-sm:px-5 max-md:w-[80%]">
         <h1 className="text-[35px] mb-2 text-white xl-">
           ¡Comienza a sembrar hoy!

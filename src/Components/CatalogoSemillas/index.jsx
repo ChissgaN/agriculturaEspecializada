@@ -20,16 +20,19 @@ export const Categorias = () => {
 
   return (
     <>
+    
+
       {users &&
         users.map((user) => (
           <Cards
-            key={user.id}
-            imgProyect={user.imgProyect}
-            tituloCategoria={user.tituloCategoria}
-            
+          key={user.id}
+          imgProyect={user.imgProyect}
+          tituloCategoria={user.tituloCategoria}
+          
           />
-        ))}
+          ))}
        
+         
     </>
   );
 };

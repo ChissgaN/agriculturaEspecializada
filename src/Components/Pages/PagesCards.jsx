@@ -112,7 +112,7 @@ const PagesCards = () => {
             {Object.keys(categorias[0]).map((nombreCategoria, index) => (
               <li
                 key={index}
-                className="  flex items-center hover:bg-gray-200 hover:scale-105 rounded-md py-2 transition duration-300 ease-in-out pl-1 cursor-pointer"
+                className="flex items-center hover:bg-gray-200 hover:scale-105 rounded-md py-2 transition duration-300 ease-in-out pl-1 cursor-pointer"
                 onClick={() => handleCategoryClick(nombreCategoria)}
               >
                 <img

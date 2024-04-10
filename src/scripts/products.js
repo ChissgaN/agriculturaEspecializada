@@ -7,7 +7,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 4,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ALBAHACA 16 AGOSTO 2023.webp",
+        imagen: "../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp",
       },
       {
         id: 2,
@@ -1134,3 +1134,4 @@ const categorias = [
     ],
   },
 ];
+export default categorias;

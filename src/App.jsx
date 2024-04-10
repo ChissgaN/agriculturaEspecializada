@@ -11,7 +11,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/Pages" element={<PagesCards />} />
-          {/* <Route path="/Register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
+
+export default App;
+
+{
+  /* <Route path="/Register" element={<Register />} />
           <Route path="/LayoutAdmin" element={<LayoutAdmin />}>
             <Route path="Info" element={<Info />} />
             <Route path="Perfil/:id" element={<Perfil />} />
@@ -20,12 +29,9 @@ function App() {
             <Route path="roll" element={<Roll />} />
             <Route path="logs" element={<Logs />} />
             <Route path="page" element={<Page />} />
-          </Route> */}
-        </Routes>
-      </BrowserRouter>
-    </>
-
-    /* <NextUIProvider>
+          </Route> */
+}
+/* <NextUIProvider>
     <div className="md:w-full">
     <NavBar />
     
@@ -46,7 +52,3 @@ function App() {
     <Footer />
     </section>
     </NextUIProvider> */
-  );
-}
-
-export default App;

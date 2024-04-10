@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, ButtonGroup } from "@nextui-org/react";
-
+import albaca from "../../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp";
 const ProductCard = ({ product, openModal }) => {
   const handleClick = () => {
     openModal(product);
@@ -11,14 +11,14 @@ const ProductCard = ({ product, openModal }) => {
       onClick={handleClick}
     >
       <img
-        src={product.image}
-        alt={product.name}
+        src={albaca}
+        alt={product.producto}
         className="w-full h-fit object-cover rounded-xl max-w-[230px] max-h-[306px] "
       />
 
-      <h3 className="text-lg font-semibold mt-2">{product.name}</h3>
+      <h3 className="text-lg font-semibold mt-2">{product.producto}</h3>
 
-      <p className="text-gray-600">${product.price}</p>
+      <p className="text-gray-600">${product.precio}</p>
 
       <Button
         color="warning"

@@ -1,56 +1,34 @@
 import React, { useState } from "react";
 import NavBar from "../NavBar";
 import Verduras from "../../assets/agricultura/verduras1.jpg";
-import ProductCard from "./ProductCard";
+import ProductGrid from "./ProductGrid";
+import { Button } from "@nextui-org/react";
+
 import categorias from "../../scripts/products";
 import categoria from "../../../public/categorias.json";
+
+import ProductCard from "./ProductCard";
 import albaca from "../../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp";
 
 const PagesCards = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("aromaticas");
-  const [selectedSortOption, setSelectedSortOption] = useState("default");
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
 
-  const handleSortChange = (event) => {
-    setSelectedSortOption(event.target.value);
-  };
-
   const handleCategoryClick = (categoria) => {
     setSelectedCategory(categoria);
   };
+  const handleCategoryChange = (event) => {
+    setSelectedCategory(event.target.value);
+  };
 
-  let sortedProducts = [];
-
-  switch (selectedSortOption) {
-    case "priceAsc":
-      sortedProducts = categorias[0][selectedCategory]
-        .slice()
-        .sort((a, b) => a.precio - b.precio);
-      break;
-    case "priceDesc":
-      sortedProducts = categorias[0][selectedCategory]
-        .slice()
-        .sort((a, b) => b.precio - a.precio);
-      break;
-    case "nameAsc":
-      sortedProducts = categorias[0][selectedCategory]
-        .slice()
-        .sort((a, b) => a.producto.localeCompare(b.producto));
-      break;
-    case "nameDesc":
-      sortedProducts = categorias[0][selectedCategory]
-        .slice()
-        .sort((a, b) => b.producto.localeCompare(a.producto));
-      break;
-    default:
-      sortedProducts = categorias[0][selectedCategory];
-      break;
-  }
+  const filteredProducts = categorias[0][selectedCategory].filter((product) =>
+    product.producto.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   const openModal = (product) => {
     setSelectedProduct(product);
@@ -92,15 +70,14 @@ const PagesCards = () => {
             />
             <select
               className="h-[30%] px-2 py-2 border border-gray-300 rounded-md focus:outline-none"
-              value={selectedSortOption}
-              onChange={handleSortChange}
+              value={selectedCategory}
+              onChange={handleCategoryChange}
             >
-              <option value="default">Ordenar por...</option>
-              <option value="priceAsc">Precio: menor a mayor</option>
-              <option value="priceDesc">Precio: mayor a menor</option>
-              <option value="nameAsc">Nombre: ascendente</option>
-              <option value="nameDesc">Nombre: descendente</option>
-              <option value="all">Mostrar todos</option>
+              {Object.keys(categorias[0]).map((nombreCategoria, index) => (
+                <option key={index} value={nombreCategoria}>
+                  {nombreCategoria}
+                </option>
+              ))}
             </select>
           </div>
         </div>
@@ -127,30 +104,13 @@ const PagesCards = () => {
         </div>
         <div className="w-full py-4 ml-[10%]">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 w-fit">
-            {selectedSortOption === "all"
-              ? categorias[0][selectedCategory]
-                  .filter((product) => {
-                    return (
-                      searchTerm === "" ||
-                      product.producto
-                        .toLowerCase()
-                        .includes(searchTerm.toLowerCase())
-                    );
-                  })
-                  .map((product) => (
-                    <ProductCard
-                      key={product.id}
-                      product={product}
-                      openModal={openModal}
-                    />
-                  ))
-              : sortedProducts.map((product) => (
-                  <ProductCard
-                    key={product.id}
-                    product={product}
-                    openModal={openModal}
-                  />
-                ))}
+            {filteredProducts.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                openModal={openModal}
+              />
+            ))}
           </div>
         </div>
       </section>

@@ -17,6 +17,7 @@ export const Categorias = () => {
 
   return (
     <>
+  
       {users &&
         users.map((user) => (
           <Cards

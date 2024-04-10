@@ -1,20 +1,32 @@
 import React from "react";
+import { Button, ButtonGroup } from "@nextui-org/react";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, openModal }) => {
+  const handleClick = () => {
+    openModal(product);
+  };
   return (
-    <div className="bg-white rounded-lg shadow-md p-4">
+    <div
+      className="bg-white rounded-xl px-2  hover:scale-105  duration-500 ease-in-out mb-3 max-w-[240px] max-h-[434px]"
+      onClick={handleClick}
+    >
       <img
         src={product.image}
         alt={product.name}
-        className="w-full h-48 object-cover rounded-xl"
+        className="w-full h-fit object-cover rounded-xl max-w-[230px] max-h-[306px] "
       />
 
       <h3 className="text-lg font-semibold mt-2">{product.name}</h3>
 
       <p className="text-gray-600">${product.price}</p>
-      <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 flex content-center mx-auto">
-        Add to Cart
-      </button>
+
+      <Button
+        color="warning"
+        variant="ghost"
+        className="flex content-center mx-auto hover:scale-105  duration-500 ease-in-out mb-3"
+      >
+        Agregar al carrito
+      </Button>
     </div>
   );
 };

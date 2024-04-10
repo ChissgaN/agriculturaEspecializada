@@ -95,11 +95,13 @@ const PagesCards = () => {
               value={selectedSortOption}
               onChange={handleSortChange}
             >
-              <option value="default">Ordenar por...</option>
-              <option value="priceAsc">Precio: menor a mayor</option>
-              <option value="priceDesc">Precio: mayor a menor</option>
-              <option value="nameAsc">Nombre: ascendente</option>
-              <option value="nameDesc">Nombre: descendente</option>
+              <option value="default" disabled>
+                Ordenar por...
+              </option>
+              <option value="priceAsc">Precio: Menor a mayor</option>
+              <option value="priceDesc">Precio: Mayor a menor</option>
+              <option value="nameAsc">Nombre: Ascendente</option>
+              <option value="nameDesc">Nombre: Descendente</option>
               <option value="all">Mostrar todos</option>
             </select>
           </div>
@@ -127,30 +129,22 @@ const PagesCards = () => {
         </div>
         <div className="w-full py-4 ml-[10%]">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 w-fit">
-            {selectedSortOption === "all"
-              ? categorias[0][selectedCategory]
-                  .filter((product) => {
-                    return (
-                      searchTerm === "" ||
-                      product.producto
-                        .toLowerCase()
-                        .includes(searchTerm.toLowerCase())
-                    );
-                  })
-                  .map((product) => (
-                    <ProductCard
-                      key={product.id}
-                      product={product}
-                      openModal={openModal}
-                    />
-                  ))
-              : sortedProducts.map((product) => (
-                  <ProductCard
-                    key={product.id}
-                    product={product}
-                    openModal={openModal}
-                  />
-                ))}
+            {sortedProducts
+              .filter((product) => {
+                return (
+                  searchTerm === "" ||
+                  product.producto
+                    .toLowerCase()
+                    .includes(searchTerm.toLowerCase())
+                );
+              })
+              .map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  openModal={openModal}
+                />
+              ))}
           </div>
         </div>
       </section>

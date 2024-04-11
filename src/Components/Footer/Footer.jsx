@@ -4,6 +4,7 @@ import form from "/public/footer/form.png";
 import instagram from "/public/footer/instagram.svg";
 import facebook from "/public/footer/facebook.svg";
 import whatssap from "/public/footer/whatssap.svg";
+import arrow from "/public/footer/arrow.svg";
 export default function Footer() {
   const [formData, setFormData] = useState({
     input1: "",
@@ -42,8 +43,23 @@ export default function Footer() {
   return (
     <>
       <div className=" px-20 bg-gray-200 w-full">
-        <div className="flex justify-between items-center py-14">
-          <img src={logo} alt="" className="w-32" />
+        <div className="flex justify-between items-center py-14 ">
+
+          <div className="flex gap-4 justify-center items-center  ">
+            <h1 className="text-[25px] font-semibold">
+              Comentarios o Preguntas
+            </h1>
+
+            <img src={arrow} alt="" className="w-10 filter hover:invert " />
+
+              <button  onSubmit={handleSubmit}
+                type="submit"
+                className=" transform hover:scale-[1.2] transition duration-300 ease-in-out h-full "
+              >
+                <img src={form} alt="" className="w-10 " />
+              </button>
+           
+          </div>
 
           <div className="flex gap-4 cursor-pointer">
             <img
@@ -138,25 +154,13 @@ export default function Footer() {
           </div>
         </div>
 
-      <div className="flex justify-end">
-        <div className="py-10 flex flex-col text-right">
-          <h1 className="text-[40px]">Comentarios o Preguntas</h1>
-         
-       
-          <form onSubmit={handleSubmit}>
-            <button
-              type="submit"
-              className=" transform hover:scale-[1.2] transition duration-300 ease-in-out h-full "
-            >
-              <img src={form} alt="" className="w-[80px] " />
-            </button>
-          </form>
+        <div className="flex justify-between items-center">
+          <p className="py-10 ">
+            ©2024 Distribuidora Agricultura Especializada
+          </p>
+          <img src={logo} alt="" className="w-32" />
         </div>
-        </div>
-       
-        <p className="py-10 ">©2024 Distribuidora Agricultura Especializada</p>
       </div>
-     
     </>
   );
 }

@@ -1,15 +1,19 @@
 import React from "react";
 import { Index } from "./Index.jsx";
 import cebolla from "/public/cebolla.webp";
-import preparaSuelo from "/public/procesoSiembra/preparaSuelo.webp";
+import preparaSuelo from "/public/procesoSiembra/preparar.webp";
 import semillas from "/public/procesoSiembra/semillas.webp";
 import siembra from "/public/procesoSiembra/siembra.webp";
+import fertilizacion from "/public/procesoSiembra/fertilizacion.webp";
+import cosecha from "/public/procesoSiembra/cosecha.webp";
+import rotacion from "/public/procesoSiembra/rotacion.webp";
+import fumigar from "/public/procesoSiembra/fumigarr.webp";
 
 export const Informacion = () => {
   return (
     <>
 
-      <div className="grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6 w-[90%]">
+      <div className="grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6 w-[80%]">
         <Index
           procesoImg={preparaSuelo}
           tituloProceso="Preparación del suelo:"
@@ -29,7 +33,7 @@ export const Informacion = () => {
         />
 
         <Index
-          procesoImg={cebolla}
+          procesoImg={fumigar}
           tituloProceso="Precausiones y Cuidados:"
           descripcionProceso="Después de la germinación, asegúrate de proporcionar suficiente agua y luz solar a las plántulas.
     * Controla las malas hierbas y evita el exceso de competencia por nutrientes y agua 
@@ -38,13 +42,13 @@ export const Informacion = () => {
         />
 
         <Index
-          procesoImg={cebolla}
+          procesoImg={fertilizacion}
           tituloProceso="Fertilización:"
           descripcionProceso=" 
     Aplícale fertilizante según las necesidades específicas de tus plantas. Puedes optar por fertilizantes orgánicos o químicos, dependiendo de tus preferencias y prácticas de cultivo."
         />
         <Index
-          procesoImg={cebolla}
+          procesoImg={cosecha}
           tituloProceso="Cosecha:"
           descripcionProceso=" 
     Cosecha tus cultivos en el momento adecuado, cuando estén maduros pero aún tiernos.
@@ -58,7 +62,7 @@ export const Informacion = () => {
     Para algunos cultivos, como las verduras de hoja verde, es recomendable refrigerarlas inmediatamente después de la cosecha."
         /> */}
         <Index
-          procesoImg={cebolla}
+          procesoImg={rotacion}
           tituloProceso=" Rotación de cultivos:"
           descripcionProceso=" 
     Practica la rotación de cultivos para evitar la acumulación de plagas y enfermedades en el suelo y mejorar la salud general del suelo."

@@ -15,8 +15,6 @@ import perejil from "../assets/categorias/aromaticas/PEREJIL 05JUNIO2023.webp";
 import romero from "../assets/categorias/aromaticas/ROMERO MARZO 2023.webp";
 import tomillo from "../assets/categorias/aromaticas/TOMILLO 01MARZO2024.webp";
 
-// Si hay más categorías o imágenes, añade los imports aquí
-
 const categorias = [
   {
     aromaticas: [

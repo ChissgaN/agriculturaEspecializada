@@ -15,14 +15,14 @@
     },{
         "id": 4,
         "imgProyect": "manzanilla.jpeg",
-        "tituloCategoria": "FLORES"
+        "tituloCategoria": "HORTALIZAS"
     },{
         "id": 5,
         "imgProyect": "manzanilla.jpeg",
-        "tituloCategoria": "HORTALIZAS"
+        "tituloCategoria": "ORNAMENTALES"
     },{
         "id": 6,
         "imgProyect": "manzanilla.jpeg",
-        "tituloCategoria": " SEMILLAS"
+        "tituloCategoria": "SUSTRATOS"
     }
 ]

@@ -1,3 +1,138 @@
+import bulbos from "../assets/categorias/bulbos/5 BULBOS CALLA LILY.webp";
+import albahaca from "../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp";
+import albahacav from "../assets/categorias/aromaticas/ALBAHACA VIOLETA 2024.webp";
+import apio from "../assets/categorias/aromaticas/APIO 19 ENERO 2021.webp";
+import cilantro from "../assets/categorias/aromaticas/CILANTRO ENERO 2024.webp";
+import eneldo from "../assets/categorias/aromaticas/ENELDO DIC 2020.webp";
+import hinojo from "../assets/categorias/aromaticas/HINOJO ENERO 2024.webp";
+import manzanilla from "../assets/categorias/aromaticas/MANZANILLA 13OCT2022.webp";
+import melissa from "../assets/categorias/aromaticas/MELISSA 13 OCTUBRE 2022.webp";
+import menta from "../assets/categorias/aromaticas/MENTA 16 AGOSTO 2023.webp";
+import mixAromaticas from "../assets/categorias/aromaticas/MIX DE PLANTAS AROMATICAS.webp";
+import mixInfusiones from "../assets/categorias/aromaticas/MIX DE PLANTAS PARA INFUSIONES.webp";
+import oregano from "../assets/categorias/aromaticas/OREGANO ENERO 2024.webp";
+import perejil from "../assets/categorias/aromaticas/PEREJIL 05JUNIO2023.webp";
+import romero from "../assets/categorias/aromaticas/ROMERO MARZO 2023.webp";
+import tomillo from "../assets/categorias/aromaticas/TOMILLO 01MARZO2024.webp";
+import bermudaGrass from "../assets/categorias/cesped/CESPED BERMUDA-CLIMA CALIDO.webp";
+import grama25g from "../assets/categorias/cesped/GRAMA 25 g ENERO 2024.webp";
+import gramaCompetenciaDeportiva1k from "../assets/categorias/cesped/GRAMA COMPETENCIA DEPORTIVA 1 kg 11 01 2022.webp";
+import gramaParaSombra from "../assets/categorias/cesped/CESPED PARA SOMBRA.webp";
+import aleli from "../assets/categorias/ornamentales/ALELI 13 OCTUBRE 2022.webp";
+import antirrino from "../assets/categorias/ornamentales/ANTIRRINO SEPT 2020.webp";
+import cactus from "../assets/categorias/ornamentales/CACTUS 13 OCTUBRE 2022.webp";
+import calendula from "../assets/categorias/ornamentales/CALENDULA 19 ENERO 2021.webp";
+import campanula from "../assets/categorias/ornamentales/CAMPANULA 19JULIO2021.webp";
+import capuchina from "../assets/categorias/ornamentales/CAPUCHINA 29JUNIO 2022.webp";
+import celosiaPlumosa from "../assets/categorias/ornamentales/CELOSIA PLUMOSA 19 ENERO 2021.webp";
+import centaurea from "../assets/categorias/ornamentales/CENTAUREA JUNIO 2020.webp";
+import cipressPiramidal from "../assets/categorias/ornamentales/CIPRES PIRAMIDAL 24 ABRIL 2023.webp";
+import clavelAmarillo from "../assets/categorias/ornamentales/CLAVEL AMARILLO.webp";
+import clavelBlanco from "../assets/categorias/ornamentales/CLAVEL BLANCO 13 OCTUBRE 2022.webp";
+import clavelMixClaro from "../assets/categorias/ornamentales/CLAVEL MIX CLARO 27 FEB 2019.webp";
+import clavelMixOscuro from "../assets/categorias/ornamentales/CLAVEL MIX OSCURO 05 MAYO 2022.webp";
+import clavelRojo from "../assets/categorias/ornamentales/CLAVEL ROJO MARZO 2023.webp";
+import coleusVariados from "../assets/categorias/ornamentales/COLEUS DIC 2020.webp";
+import cosmosVariados from "../assets/categorias/ornamentales/COSMOS VARIADOS 18AGOSTO 2022.webp";
+import crisantemo from "../assets/categorias/ornamentales/CRISANTEMO 18AGOSTO 2022.webp";
+import delphinium from "../assets/categorias/ornamentales/DELPHINIUM ENERO 2024.webp";
+import digital from "../assets/categorias/ornamentales/DIGITAL 18AGOSTO 2022.webp";
+import estaticeAmarillo from "../assets/categorias/ornamentales/ESTATICE AMARILLA.webp";
+import estaticeAzul from "../assets/categorias/ornamentales/ESTATICE AZUL.webp";
+import estaticeBlanco from "../assets/categorias/ornamentales/ESTATICE BLANCA.webp";
+import estaticeMix from "../assets/categorias/ornamentales/ESTATICE MIX.webp";
+import estaticeRojo from "../assets/categorias/ornamentales/ESTATICE ROJA 05 MAYO 2022.webp";
+import estrelicia from "../assets/categorias/ornamentales/ESTRELICIA 18AGOSTO 2022.webp";
+import floresAnuales from "../assets/categorias/ornamentales/FLORES ANUALES 29JUNIO 2022.webp";
+import flox from "../assets/categorias/ornamentales/FLOX 29 AGOSTO 2019.webp";
+import gerbera from "../assets/categorias/ornamentales/GERBERA 13 OCTUBRE 2022.webp";
+import gipsophilia from "../assets/categorias/ornamentales/GIPSOPHILIA.webp";
+import girasol from "../assets/categorias/ornamentales/GIRASOL ENERO 2024.webp";
+import girasolDeCentro from "../assets/categorias/ornamentales/GIRASOL DE CENTRO 2 OCT 2023.webp";
+import guisantesDeOlor from "../assets/categorias/ornamentales/GUISANTES DE OLOR DIC 2020.webp";
+import ipomeaV from "../assets/categorias/ornamentales/IPOMEA VARIADA.webp";
+import margaritaBotoncitos from "../assets/categorias/ornamentales/MARGARITA BOTONCITOS 01MARZO2024.webp";
+import margaritaGigante from "../assets/categorias/ornamentales/MARGARITA GIGANTE 5JUNIO2023.webp";
+import miosotisDeLosAlpes from "../assets/categorias/ornamentales/MIOSOTIS 18AGOSTO 2022.webp";
+import miramelindo from "../assets/categorias/ornamentales/MIRAMELINDO 18AGOSTO 2022.webp";
+import mezclaDeFloresParaAbejas from "../assets/categorias/ornamentales/MEZCLA DE FLORES PARA ABEJAS.webp";
+import pensamientoAmarillo from "../assets/categorias/ornamentales/PENSAMIENTO AMARILLO 30 MARZO 2022.webp";
+import pensamientoAzul from "../assets/categorias/ornamentales/PENSAMIENTO AZUL 29JUNIO 2022.webp";
+import pensamientoMix from "../assets/categorias/ornamentales/PENSAMIENTO MIX 2 OCT 2023.webp";
+import petuniaColgante from "../assets/categorias/ornamentales/PETUNIA COLGANTE 03 DICIEMBRE 2021.webp";
+import petuniaGrande from "../assets/categorias/ornamentales/PETUNIA GRANDE 29JUNIO 2022.webp";
+import petuniaGrandiflora from "../assets/categorias/ornamentales/PETUNIA GRANDIFLORA 02 JUNIO 2021.webp";
+import pimientoOrnamental from "../assets/categorias/ornamentales/PIMIENTO ORNAMENTAL DIC 2020.webp";
+import reinaMargaritaBelleza from "../assets/categorias/ornamentales/REINA MARGARITA BELLEZA 29JUNIO 2022.webp";
+import reinaMargaritaMix from "../assets/categorias/ornamentales/REINA MARGARITA MIX 29JUNIO 2022.webp";
+import siempreviva from "../assets/categorias/ornamentales/SIEMPREVIVA.webp";
+import thuja from "../assets/categorias/ornamentales/THUJA 24 ABRIL 2023.webp";
+import verdolaga from "../assets/categorias/ornamentales/VERDOLAGA 05 MAYO 2022.webp";
+import violeta from "../assets/categorias/ornamentales/VIOLETA MARZO 2023.webp";
+import zinnia from "../assets/categorias/ornamentales/ZINNIA MARZO 2023.webp";
+import acelgaImg from "../assets/categorias/hortalizas/ACELGA MAYO 2020.webp";
+import alcachofaImg from "../assets/categorias/hortalizas/ALCACHOFA 30 MARZO 2022.webp";
+import amarantoImg from "../assets/categorias/hortalizas/AMARANTO 05102015.webp";
+import arugulaImg from "../assets/categorias/hortalizas/ARUGULA 19 OCTUBRE 2021.webp";
+import berenjenaImg from "../assets/categorias/hortalizas/BERENJENA 14062016.webp";
+import berroAguaImg from "../assets/categorias/hortalizas/BERRO DE AGUA DIC 2020.webp";
+import brocoliImg from "../assets/categorias/hortalizas/BROCOLI 30 MARZO 2022.webp";
+import calabacinImg from "../assets/categorias/hortalizas/CALABACIN 16 AGOSTO 2023.webp";
+import cebollaBlancaImg from "../assets/categorias/hortalizas/CEBOLLA BLANCA 16 AGOSTO 2023.webp";
+import cebollaRojaImg from "../assets/categorias/hortalizas/CEBOLLA ROJA 05 MAYO 2022.webp";
+import cebollinImg from "../assets/categorias/hortalizas/CEBOLLIN 01MARZO2024.webp";
+import chileJalapenoImg from "../assets/categorias/hortalizas/JALAPEÑO 5JUNIO2023.webp";
+import chileCayenneImg from "../assets/categorias/hortalizas/CHILE CAYENNE 13 OCTUBRE 2022.webp";
+import chilePimientoCortoImg from "../assets/categorias/hortalizas/PIMIENTO CORTO 2 OCT 2023.webp";
+import chilePimientoLargoImg from "../assets/categorias/hortalizas/PIMIENTO LARGO ENERO 2024.webp";
+import chileSigarretaImg from "../assets/categorias/hortalizas/CHILE SIGARRETA.webp";
+import chipilinImg from "../assets/categorias/hortalizas/CHIPILIN 13 OCTUBRE 2022.webp";
+import colBruselasImg from "../assets/categorias/hortalizas/COL DE BRUSELAS SEPT 2020.webp";
+import colMilanImg from "../assets/categorias/hortalizas/COL.webp";
+import coliflorImg from "../assets/categorias/hortalizas/COLIFLOR 2024.webp";
+import esparragoImg from "../assets/categorias/hortalizas/ESPARRAGO 13 OCTUBRE 2022.webp";
+import espinacaImg from "../assets/categorias/hortalizas/ESPINACA MARZO 2023.webp";
+import fresaImg from "../assets/categorias/hortalizas/FRESA 16 AGOSTO 2023.webp";
+import frijolEjoteroImg from "../assets/categorias/hortalizas/EJOTE FEBRERO 2023.webp";
+import guisanteImg from "../assets/categorias/hortalizas/GUISANTE 19 ENERO 2021.webp";
+import habaImg from "../assets/categorias/hortalizas/HABA.webp";
+import hierbamoraImg from "../assets/categorias/hortalizas/HIERBAMORA ENERO 2024.webp";
+import jamaicaImg from "../assets/categorias/hortalizas/JAMAICA ENERO 2024.webp";
+import lechugaImg from "../assets/categorias/hortalizas/LECHUGA 13 OCTUBRE 2022.webp";
+import lechugaRojaImg from "../assets/categorias/hortalizas/LECHUGA ROJA 19JULIO2021.webp";
+import lechugaRomanaImg from "../assets/categorias/hortalizas/LECHUGA ROMANA 29JUNIO 2022.webp";
+import maizDulceImg from "../assets/categorias/hortalizas/MAIZ DULCE 9 ABRIL 2021.webp";
+import melonImg from "../assets/categorias/hortalizas/MELON 18AGOSTO 2022.webp";
+import mezclaEnsaladasImg from "../assets/categorias/hortalizas/MEZCLA DE ENSALADAS 29JUNIO 2022.webp";
+import mezclaHierbasCocinarImg from "../assets/categorias/hortalizas/MEZCLA DE HIERBAS PARA COCINAR.webp";
+import miltomateImg from "../assets/categorias/hortalizas/MILTOMATE 18AGOSTO 2022.webp";
+import mixHortalizasSemillerosImg from "../assets/categorias/hortalizas/MEZCLA DE HORTALIZAS PARA SEMILLEROS.webp";
+import mixHortalizasSiembraDirectaImg from "../assets/categorias/hortalizas/MEZCLA DE SEMILLAS PARA SIEMBRA DIRECTA ENERO 2024.webp";
+import mixPlantasSalsaRojaImg from "../assets/categorias/hortalizas/MEZCLA SALSA ROJA.webp";
+import mixPlantasSalsaVerdeImg from "../assets/categorias/hortalizas/MEZCLA SALSA VERDE.webp";
+import mixPlantasSalsaPicanteImg from "../assets/categorias/hortalizas/MEZCLA SALSA PICANTE.webp";
+import mostazaImg from "../assets/categorias/hortalizas/MOSTAZA.webp";
+import naboBlancoImg from "../assets/categorias/hortalizas/NABO SEPT 2020.webp";
+import okraImg from "../assets/categorias/hortalizas/OKRA 9 ABRIL 2021.webp";
+import pepinoImg from "../assets/categorias/hortalizas/PEPINO MARZO 2 2021.webp";
+import puerroImg from "../assets/categorias/hortalizas/PUERRO ENERO 2024.webp";
+import rabanoImg from "../assets/categorias/hortalizas/RABANO ENERO 2024.webp";
+import remolachaImg from "../assets/categorias/hortalizas/REMOLACHA 9 ABRIL 2021.webp";
+import repolloImg from "../assets/categorias/hortalizas/REPOLLO 29JUNIO 2022.webp";
+import repolloRojoImg from "../assets/categorias/hortalizas/REPOLLO ROJO.webp";
+import sandiaLargaImg from "../assets/categorias/hortalizas/SANDIA LARGA FEBRERO 2023.webp";
+import sandiaRedondaImg from "../assets/categorias/hortalizas/SANDIA CRIMSON SWEET FEBRERO 2023.webp";
+import tomateLargoImg from "../assets/categorias/hortalizas/TOMATE LARGO ENERO 2024.webp";
+import tomateRedondoImg from "../assets/categorias/hortalizas/TOMATE REDONDO 5JUNIO2023.webp";
+import zanahoriaBerlicumImg from "../assets/categorias/hortalizas/ZANAHORIA 2 OCT 2023.webp";
+import sustratoGerminarSemillas from "../assets/categorias/sustratos/SUSTRATO PARA GERMINAR SEMILLAS.webp";
+import sustratoCactus from "../assets/categorias/sustratos/CACTUS Y SUCULENTAS_.webp";
+import sustratoCactusBolsaPequena from "../assets/categorias/sustratos/CACTUS Y SUCULENTAS_.webp";
+import sustratoOrquideas from "../assets/categorias/sustratos/ORQUIDEAS.webp";
+import sustratoOrquideasBolsaPequena from "../assets/categorias/sustratos/ORQUIDEAS.webp";
+import sustratoBocashi from "../assets/categorias/sustratos/BOCASHI.webp";
+import gravaOrnamentalFina from "../assets/categorias/sustratos/GRAVA ORNAMENTAL FINA.webp";
+
 const categorias = [
   {
     aromaticas: [
@@ -7,7 +142,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 4,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp",
+        imagen: albahaca,
       },
       {
         id: 2,
@@ -15,7 +150,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 5,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ALBAHACA VIOLETA 2024.webp",
+        imagen: albahacav,
       },
       {
         id: 3,
@@ -23,7 +158,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 10,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/APIO 19 ENERO 2021.webp",
+        imagen: apio,
       },
       {
         id: 4,
@@ -31,7 +166,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 65,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/CILANTRO ENERO 2024.webp",
+        imagen: cilantro,
       },
       {
         id: 5,
@@ -39,7 +174,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 95,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ENELDO DIC 2020.webp",
+        imagen: eneldo,
       },
       {
         id: 6,
@@ -47,7 +182,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 162,
         precio: 30.0,
-        imagen: "../assets/categorias/aromaticas/HINOJO ENERO 2024.webp",
+        imagen: hinojo,
       },
       {
         id: 7,
@@ -55,7 +190,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 32,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/MANZANILLA 13OCT2022.webp",
+        imagen: manzanilla,
       },
       {
         id: 8,
@@ -63,7 +198,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 183,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/MELISSA 13 OCTUBRE 2022.webp",
+        imagen: melissa,
       },
       {
         id: 9,
@@ -71,7 +206,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 186,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/MENTA 16 AGOSTO 2023.webp",
+        imagen: menta,
       },
       {
         id: 10,
@@ -79,8 +214,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 410,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/aromaticas/MIX DE PLANTAS AROMATICAS.webp",
+        imagen: mixAromaticas,
       },
       {
         id: 11,
@@ -88,8 +222,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 408,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/aromaticas/MIX DE PLANTAS PARA INFUSIONES.webp",
+        imagen: mixInfusiones,
       },
       {
         id: 12,
@@ -97,7 +230,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 194,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/OREGANO ENERO 2024.webp",
+        imagen: oregano,
       },
       {
         id: 13,
@@ -105,7 +238,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 207,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/PEREJIL 05JUNIO2023.webp",
+        imagen: perejil,
       },
       {
         id: 14,
@@ -113,7 +246,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 263,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ROMERO MARZO 2023.webp",
+        imagen: romero,
       },
       {
         id: 15,
@@ -121,10 +254,9 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 275,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/TOMILLO 01MARZO2024.webp",
+        imagen: tomillo,
       },
     ],
-
     bulbos: [
       {
         id: 1,
@@ -132,7 +264,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 416,
         precio: 75.0,
-        imagen: "../assets/categorias/bulbos/5 BULBOS CALLA LILY.webp",
+        imagen: bulbos,
       },
     ],
 
@@ -143,7 +275,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 292,
         precio: 130.0,
-        imagen: "../assets/categorias/cesped/CESPED BERMUDA-CLIMA CALIDO.webp",
+        imagen: bermudaGrass,
       },
       {
         id: 2,
@@ -151,7 +283,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 297,
         precio: 30.0,
-        imagen: "../assets/categorias/cesped/GRAMA 25 g ENERO 2024.webp",
+        imagen: grama25g,
       },
       {
         id: 3,
@@ -159,8 +291,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 302,
         precio: 225.0,
-        imagen:
-          "../assets/categorias/cesped/GRAMA COMPETENCIA DEPORTIVA 1 kg 11 01 2022.webp",
+        imagen: gramaCompetenciaDeportiva1k,
       },
       {
         id: 4,
@@ -168,7 +299,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 431,
         precio: 82.0,
-        imagen: "../assets/categorias/cesped/CESPED PARA SOMBRA.webp",
+        imagen: gramaParaSombra,
       },
     ],
 
@@ -179,7 +310,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 1,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/ACELGA MAYO 2020.webp",
+        imagen: acelgaImg,
       },
       {
         id: 2,
@@ -187,7 +318,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 6,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/ALCACHOFA 30 MARZO 2022.webp",
+        imagen: alcachofaImg,
       },
       {
         id: 3,
@@ -195,7 +326,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 386,
         precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/AMARANTO 05102015.webp",
+        imagen: amarantoImg,
       },
       {
         id: 4,
@@ -203,7 +334,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 368,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/ARUGULA 19 OCTUBRE 2021.webp",
+        imagen: arugulaImg,
       },
       {
         id: 5,
@@ -211,7 +342,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 16,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/BERENJENA 14062016.webp",
+        imagen: berenjenaImg,
       },
       {
         id: 6,
@@ -219,7 +350,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 17,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/BERRO DE AGUA DIC 2020.webp",
+        imagen: berroAguaImg,
       },
       {
         id: 7,
@@ -227,7 +358,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 372,
         precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/BROCOLI 30 MARZO 2022.webp",
+        imagen: brocoliImg,
       },
       {
         id: 8,
@@ -235,7 +366,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 20,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/CALABACIN 16 AGOSTO 2023.webp",
+        imagen: calabacinImg,
       },
       {
         id: 9,
@@ -243,8 +374,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 34,
         precio: 30.0,
-        imagen:
-          "../assets/categorias/hortalizas/CEBOLLA BLANCA 16 AGOSTO 2023.webp",
+        imagen: cebollaBlancaImg,
       },
       {
         id: 10,
@@ -252,8 +382,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 42,
         precio: 30.0,
-        imagen:
-          "../assets/categorias/hortalizas/CEBOLLA ROJA 05 MAYO 2022.webp",
+        imagen: cebollaRojaImg,
       },
       {
         id: 11,
@@ -261,7 +390,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 46,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/CEBOLLIN 01MARZO2024.webp",
+        imagen: cebollinImg,
       },
       {
         id: 12,
@@ -269,7 +398,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 55,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/JALAPEÑO 5JUNIO2023.webp",
+        imagen: chileJalapenoImg,
       },
       {
         id: 13,
@@ -277,8 +406,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 60,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/CHILE CAYENNE 13 OCTUBRE 2022.webp",
+        imagen: chileCayenneImg,
       },
       {
         id: 14,
@@ -286,8 +414,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 216,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/PIMIENTO CORTO 2 OCT 2023.webp",
+        imagen: chilePimientoCortoImg,
       },
       {
         id: 15,
@@ -295,8 +422,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 222,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/PIMIENTO LARGO ENERO 2024.webp",
+        imagen: chilePimientoLargoImg,
       },
       {
         id: 16,
@@ -304,7 +430,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 62,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/CHILE SIGARRETA.webp",
+        imagen: chileSigarretaImg,
       },
       {
         id: 17,
@@ -312,7 +438,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 385,
         precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/CHIPILIN 13 OCTUBRE 2022.webp",
+        imagen: chipilinImg,
       },
       {
         id: 18,
@@ -320,8 +446,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 81,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/COL DE BRUSELAS SEPT 2020.webp",
+        imagen: colBruselasImg,
       },
       {
         id: 19,
@@ -329,7 +454,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 80,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/COL.webp",
+        imagen: colMilanImg,
       },
       {
         id: 20,
@@ -337,7 +462,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 84,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/COLIFLOR 2024.webp",
+        imagen: coliflorImg,
       },
       {
         id: 21,
@@ -345,8 +470,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 98,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/ESPARRAGO 13 OCTUBRE 2022.webp",
+        imagen: esparragoImg,
       },
       {
         id: 22,
@@ -354,7 +478,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 100,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/ESPINACA MARZO 2023.webp",
+        imagen: espinacaImg,
       },
       {
         id: 23,
@@ -362,7 +486,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 129,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/FRESA 16 AGOSTO 2023.webp",
+        imagen: fresaImg,
       },
       {
         id: 24,
@@ -370,7 +494,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 276,
         precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/EJOTE FEBRERO 2023.webp",
+        imagen: frijolEjoteroImg,
       },
       {
         id: 25,
@@ -378,255 +502,247 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 145,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/GUISANTE 19 ENERO 2021.webp",
+        imagen: guisanteImg,
       },
       {
         id: 26,
         producto: "Haba",
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 152,
-        precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/HABA.webp",
+        precio: 22.0,
+        imagen: habaImg,
       },
       {
         id: 27,
         producto: "Hierbamora",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 161,
+        codigo: 170,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/HIERBAMORA ENERO 2024.webp",
+        imagen: hierbamoraImg,
       },
       {
         id: 28,
         producto: "Jamaica",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 388,
-        precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/JAMAICA ENERO 2024.webp",
+        codigo: 200,
+        precio: 22.0,
+        imagen: jamaicaImg,
       },
       {
         id: 29,
         producto: "Lechuga",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 171,
+        codigo: 243,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/LECHUGA 13 OCTUBRE 2022.webp",
+        imagen: lechugaImg,
       },
       {
         id: 30,
         producto: "Lechuga Roja",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 176,
+        codigo: 244,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/LECHUGA ROJA 19JULIO2021.webp",
+        imagen: lechugaRojaImg,
       },
       {
         id: 31,
         producto: "Lechuga Romana",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 166,
+        codigo: 245,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/LECHUGA ROMANA 29JUNIO 2022.webp",
+        imagen: lechugaRomanaImg,
       },
       {
         id: 32,
         producto: "Maiz Dulce",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 179,
-        precio: 37.0,
-        imagen: "../assets/categorias/hortalizas/MAIZ DULCE 9 ABRIL 2021.webp",
+        codigo: 282,
+        precio: 22.0,
+        imagen: maizDulceImg,
       },
       {
         id: 33,
         producto: "Melon",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 184,
+        codigo: 288,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/MELON 18AGOSTO 2022.webp",
+        imagen: melonImg,
       },
       {
         id: 34,
         producto: "Mezcla de Ensaladas",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 188,
+        codigo: 319,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/MEZCLA DE ENSALADAS 29JUNIO 2022.webp",
+        imagen: mezclaEnsaladasImg,
       },
       {
         id: 35,
-        producto: "Mezcla de Hierbas p/C",
+        producto: "Mezcla de Hierbas para Cocinar",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 189,
+        codigo: 320,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/MEZCLA DE HIERBAS PARA COCINAR.webp",
+        imagen: mezclaHierbasCocinarImg,
       },
       {
         id: 36,
         producto: "Miltomate",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 274,
-        precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/MILTOMATE 18AGOSTO 2022.webp",
+        codigo: 378,
+        precio: 22.0,
+        imagen: miltomateImg,
       },
       {
         id: 37,
-        producto: "Mix de hortalizas para semilleros",
+        producto: "Mix de Hortalizas para Semilleros",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 407,
-        precio: 37.0,
-        imagen:
-          "../assets/categorias/hortalizas/MEZCLA DE HORTALIZAS PARA SEMILLEROS.webp",
+        codigo: 353,
+        precio: 22.0,
+        imagen: mixHortalizasSemillerosImg,
       },
       {
         id: 38,
-        producto: "Mix de hortalizas para siembra directa",
+        producto: "Mix de Semillas para Siembra Directa",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 409,
-        precio: 37.0,
-        imagen:
-          "../assets/categorias/hortalizas/MEZCLA DE SEMILLAS PARA SIEMBRA DIRECTA ENERO 2024.webp",
+        codigo: 352,
+        precio: 22.0,
+        imagen: mixHortalizasSiembraDirectaImg,
       },
       {
         id: 39,
-        producto: "Mix de plantas para chirmol/Salsa Roja",
+        producto: "Mix para Salsa Roja",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 412,
-        precio: 37.0,
-        imagen: "../assets/categorias/hortalizas/MEZCLA SALSA ROJA.webp",
+        codigo: 355,
+        precio: 22.0,
+        imagen: mixPlantasSalsaRojaImg,
       },
       {
         id: 40,
-        producto: "Mix de Plantas para chirmol/Salsa Verde",
+        producto: "Mix para Salsa Verde",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 413,
-        precio: 37.0,
-        imagen: "../assets/categorias/hortalizas/MEZCLA SALSA VERDE.webp",
+        codigo: 356,
+        precio: 22.0,
+        imagen: mixPlantasSalsaVerdeImg,
       },
       {
         id: 41,
-        producto: "Mix de plantas para salsa picante",
+        producto: "Mix para Salsa Picante",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 411,
-        precio: 37.0,
-        imagen: "../assets/categorias/hortalizas/MEZCLA DE SALSA PICANTE.webp",
+        codigo: 354,
+        precio: 22.0,
+        imagen: mixPlantasSalsaPicanteImg,
       },
       {
         id: 42,
         producto: "Mostaza",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 369,
-        precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/MOSTAZA.webp",
+        codigo: 405,
+        precio: 30.0,
+        imagen: mostazaImg,
       },
       {
         id: 43,
-        producto: "Nabo Blanco",
+        producto: "Nabo",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 192,
+        codigo: 408,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/NABO SEPT 2020.webp",
+        imagen: naboBlancoImg,
       },
       {
         id: 44,
         producto: "Okra",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 193,
+        codigo: 429,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/OKRA.webp",
+        imagen: okraImg,
       },
       {
         id: 45,
         producto: "Pepino",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 202,
+        codigo: 445,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/PEPINO MARZO 2 2021.webp",
+        imagen: pepinoImg,
       },
       {
         id: 46,
         producto: "Puerro",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 228,
+        codigo: 463,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/PUERRO ENERO 2024.webp",
+        imagen: puerroImg,
       },
       {
         id: 47,
         producto: "Rabano",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 233,
+        codigo: 466,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/RABANO ENERO 2024.webp",
+        imagen: rabanoImg,
       },
       {
         id: 48,
         producto: "Remolacha",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 252,
+        codigo: 470,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/REMOLACHA 9 ABRIL 2021.webp",
+        imagen: remolachaImg,
       },
       {
         id: 49,
         producto: "Repollo",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 257,
+        codigo: 471,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/REPOLLO 29JUNIO 2022.webp",
+        imagen: repolloImg,
       },
       {
         id: 50,
         producto: "Repollo Rojo",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 262,
+        codigo: 472,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/REPOLLO ROJO.webp",
+        imagen: repolloRojoImg,
       },
       {
         id: 51,
         producto: "Sandia Larga",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 268,
+        codigo: 516,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/SANDIA LARGA FEBRERO 2023.webp",
+        imagen: sandiaLargaImg,
       },
       {
         id: 52,
         producto: "Sandia Redonda",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 267,
+        codigo: 517,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/hortalizas/SANDIA CRIMSON SWEET FEBRERO 2023.webp",
+        imagen: sandiaRedondaImg,
       },
       {
         id: 53,
         producto: "Tomate Largo",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 272,
-        precio: 30.0,
-        imagen: "../assets/categorias/hortalizas/TOMATE LARGO ENERO 2024.webp",
+        codigo: 582,
+        precio: 22.0,
+        imagen: tomateLargoImg,
       },
       {
         id: 54,
         producto: "Tomate Redondo",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 271,
-        precio: 37.0,
-        imagen:
-          "../assets/categorias/hortalizas/TOMATE REDONDO 5JUNIO2023.webp",
+        codigo: 583,
+        precio: 22.0,
+        imagen: tomateRedondoImg,
       },
       {
         id: 55,
         producto: "Zanahoria Berlicum",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 286,
+        codigo: 648,
         precio: 22.0,
-        imagen: "../assets/categorias/hortalizas/ZANAHORIA 2 OCT 2023.webp",
+        imagen: zanahoriaBerlicumImg,
       },
     ],
 
@@ -637,7 +753,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 8,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/ALELI 13 OCTUBRE 2022.webp",
+        imagen: aleli,
       },
       {
         id: 2,
@@ -645,7 +761,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 9,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/ANTIRRINO SEPT 2020.webp",
+        imagen: antirrino,
       },
       {
         id: 3,
@@ -653,7 +769,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 19,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/CACTUS 13 OCTUBRE 2022.webp",
+        imagen: cactus,
       },
       {
         id: 4,
@@ -661,8 +777,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 30,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/CALENDULA 19 ENERO 2021.webp",
+        imagen: calendula,
       },
       {
         id: 5,
@@ -670,7 +785,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 31,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/CAMPANULA 19JULIO2021.webp",
+        imagen: campanula,
       },
       {
         id: 6,
@@ -678,7 +793,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 33,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/CAPUCHINA 29JUNIO 2022.webp",
+        imagen: capuchina,
       },
       {
         id: 7,
@@ -686,8 +801,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 52,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/CELOSIA PLUMOSA 19 ENERO 2021.webp",
+        imagen: celosiaPlumosa,
       },
       {
         id: 8,
@@ -695,7 +809,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 53,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/CENTAUREA JUNIO 2020.webp",
+        imagen: centaurea,
       },
       {
         id: 9,
@@ -703,8 +817,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 429,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/ornamentales/CIPRES PIRAMIDAL 24 ABRIL 2023.webp",
+        imagen: cipressPiramidal,
       },
       {
         id: 10,
@@ -712,7 +825,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 72,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/CLAVEL AMARILLO.webp",
+        imagen: clavelAmarillo,
       },
       {
         id: 11,
@@ -720,8 +833,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 73,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/CLAVEL BLANCO 13 OCTUBRE 2022.webp",
+        imagen: clavelBlanco,
       },
       {
         id: 12,
@@ -729,8 +841,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 76,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/CLAVEL MIX CLARO 27 FEB 2019.webp",
+        imagen: clavelMixClaro,
       },
       {
         id: 13,
@@ -738,8 +849,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 77,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/CLAVEL MIX OSCURO 05 MAYO 2022.webp",
+        imagen: clavelMixOscuro,
       },
       {
         id: 14,
@@ -747,7 +857,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 78,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/CLAVEL ROJO MARZO 2023.webp",
+        imagen: clavelRojo,
       },
       {
         id: 15,
@@ -755,7 +865,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 83,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/COLEUS DIC 2020.webp",
+        imagen: coleusVariados,
       },
       {
         id: 16,
@@ -763,8 +873,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 91,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/COSMOS VARIADOS 18AGOSTO 2022.webp",
+        imagen: cosmosVariados,
       },
       {
         id: 17,
@@ -772,8 +881,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 92,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/CRISANTEMO 18AGOSTO 2022.webp",
+        imagen: crisantemo,
       },
       {
         id: 18,
@@ -781,7 +889,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 93,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/DELPHINIUM ENERO 2024.webp",
+        imagen: delphinium,
       },
       {
         id: 19,
@@ -789,7 +897,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 94,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/DIGITAL 18AGOSTO 2022.webp",
+        imagen: digital,
       },
       {
         id: 20,
@@ -797,7 +905,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 105,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/ESTATICE AMARILLA.webp",
+        imagen: estaticeAmarillo,
       },
       {
         id: 21,
@@ -805,7 +913,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 108,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/ESTATICE AZUL.webp",
+        imagen: estaticeAzul,
       },
       {
         id: 22,
@@ -813,7 +921,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 111,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/ESTATICE BLANCA.webp",
+        imagen: estaticeBlanco,
       },
       {
         id: 23,
@@ -821,7 +929,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 114,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/ESTATICE MIX.webp",
+        imagen: estaticeMix,
       },
       {
         id: 24,
@@ -829,8 +937,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 120,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/ESTATICE ROJA 05 MAYO 2022.webp",
+        imagen: estaticeRojo,
       },
       {
         id: 25,
@@ -838,8 +945,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 126,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/ornamentales/ESTRELICIA 18AGOSTO 2022.webp",
+        imagen: estrelicia,
       },
       {
         id: 26,
@@ -847,8 +953,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 127,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/FLORES ANUALES 29JUNIO 2022.webp",
+        imagen: floresAnuales,
       },
       {
         id: 27,
@@ -856,7 +961,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 128,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/FLOX 29 AGOSTO 2019.webp",
+        imagen: flox,
       },
       {
         id: 28,
@@ -864,8 +969,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 131,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/ornamentales/GERBERA 13 OCTUBRE 2022.webp",
+        imagen: gerbera,
       },
       {
         id: 29,
@@ -873,7 +977,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 132,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/GIPSOPHILIA.webp",
+        imagen: gipsophilia,
       },
       {
         id: 30,
@@ -881,7 +985,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 142,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/GIRASOL ENERO 2024.webp",
+        imagen: girasol,
       },
       {
         id: 31,
@@ -889,7 +993,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 143,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/GIRASOL DE CENTRO.webp",
+        imagen: girasolDeCentro,
       },
       {
         id: 32,
@@ -897,8 +1001,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 151,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/GUISANTES DE OLOR DIC 2020.webp",
+        imagen: guisantesDeOlor,
       },
       {
         id: 33,
@@ -906,7 +1009,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 164,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/IPOMEA VARIADA.webp",
+        imagen: ipomeaV,
       },
       {
         id: 34,
@@ -914,7 +1017,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 180,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/MARGARITA BOTONCITOS.webp",
+        imagen: margaritaBotoncitos,
       },
       {
         id: 35,
@@ -922,8 +1025,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 181,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/MARGARITA GIGANTE 5JUNIO2023.webp",
+        imagen: margaritaGigante,
       },
       {
         id: 36,
@@ -931,7 +1033,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 190,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/MIOSOTIS 18AGOSTO 2022.webp",
+        imagen: miosotisDeLosAlpes,
       },
       {
         id: 37,
@@ -939,8 +1041,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 191,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/MIRAMELINDO 18AGOSTO 2022.webp",
+        imagen: miramelindo,
       },
       {
         id: 38,
@@ -948,8 +1049,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 406,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/ornamentales/MEZCLA DE FLORES PARA ABEJAS.webp",
+        imagen: mezclaDeFloresParaAbejas,
       },
       {
         id: 39,
@@ -957,8 +1057,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 196,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/PENSAMIENTO AMARILLO 30 MARZO 2022.webp",
+        imagen: pensamientoAmarillo,
       },
       {
         id: 40,
@@ -966,8 +1065,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 197,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/PENSAMIENTO AZUL 29JUNIO 2022.webp",
+        imagen: pensamientoAzul,
       },
       {
         id: 41,
@@ -975,7 +1073,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 200,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/PENSAMIENTO MIX.webp",
+        imagen: pensamientoMix,
       },
       {
         id: 42,
@@ -983,8 +1081,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 212,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/PETUNIA COLGANTE 03 DICIEMBRE 2021.webp",
+        imagen: petuniaColgante,
       },
       {
         id: 43,
@@ -992,8 +1089,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 213,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/ornamentales/PETUNIA GRANDE 29JUNIO 2022.webp",
+        imagen: petuniaGrande,
       },
       {
         id: 44,
@@ -1001,8 +1097,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 214,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/PETUNIA GRANDIFLORA 02 JUNIO 2021.webp",
+        imagen: petuniaGrandiflora,
       },
       {
         id: 45,
@@ -1010,8 +1105,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 221,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/PIMIENTO ORNAMENTAL DIC 2020.webp",
+        imagen: pimientoOrnamental,
       },
       {
         id: 46,
@@ -1019,8 +1113,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 243,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/REINA MARGARITA BELLEZA 29JUNIO 2022.webp",
+        imagen: reinaMargaritaBelleza,
       },
       {
         id: 47,
@@ -1028,8 +1121,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 241,
         precio: 22.0,
-        imagen:
-          "../assets/categorias/ornamentales/REINA MARGARITA MIX 29JUNIO 2022.webp",
+        imagen: reinaMargaritaMix,
       },
       {
         id: 48,
@@ -1037,99 +1129,98 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 270,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/SIEMPREVIVA.webp",
+        imagen: siempreviva,
       },
       {
         id: 49,
         producto: "Thuja",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 430,
+        codigo: 278,
         precio: 37.0,
-        imagen: "../assets/categorias/ornamentales/THUJA 24 ABRIL 2023.webp",
+        imagen: thuja,
       },
       {
         id: 50,
         producto: "Verdolaga",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 284,
+        codigo: 297,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/VERDOLAGA 05 MAYO 2022.webp",
+        imagen: verdolaga,
       },
       {
         id: 51,
         producto: "Violeta",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 285,
+        codigo: 304,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/VIOLETA MARZO 2023.webp",
+        imagen: violeta,
       },
       {
         id: 52,
         producto: "Zinnia",
         codigo_de_barras: "#¡DESCONOCIDO!",
-        codigo: 291,
+        codigo: 310,
         precio: 22.0,
-        imagen: "../assets/categorias/ornamentales/ZINNIA MARZO 2023.webp",
+        imagen: zinnia,
       },
     ],
 
     sustratos: [
       {
         id: 1,
-        nombre: "SUSTRATO P/GERMINAR SEMILLAS",
+        producto: "SUSTRATO P/GERMINAR SEMILLAS",
         codigo_de_barras: "#¡VALOR!",
         codigo: 339,
         precio: 35.0,
-        imagen:
-          "../assets/categorias/sustratos/SUSTRATO PARA GERMINAR SEMILLAS.webp",
+        imagen: sustratoGerminarSemillas,
       },
       {
         id: 2,
-        nombre: "SUSTRATO P/CACTUS",
+        producto: "SUSTRATO P/CACTUS",
         codigo_de_barras: "#¡VALOR!",
         codigo: 375,
         precio: 30.0,
-        imagen: "../assets/categorias/sustratos/CACTUS Y SUCULENTAS_.webp",
+        imagen: sustratoCactus,
       },
       {
         id: 3,
-        nombre: "SUSTRATO P/CACTUS BOLSA PEQUEÑA",
+        producto: "SUSTRATO P/CACTUS BOLSA PEQUEÑA",
         codigo_de_barras: "#¡VALOR!",
         codigo: 436,
         precio: 6.0,
-        imagen: "../assets/categorias/sustratos/CACTUS Y SUCULENTAS_.webp",
+        imagen: sustratoCactusBolsaPequena,
       },
       {
         id: 4,
-        nombre: "SUSTRATO P/ORQUIDEAS",
+        producto: "SUSTRATO P/ORQUIDEAS",
         codigo_de_barras: "#¡VALOR!",
         codigo: 376,
         precio: 35.0,
-        imagen: "../assets/categorias/sustratos/ORQUIDEAS.webp",
+        imagen: sustratoOrquideas,
       },
       {
         id: 5,
-        nombre: "SUSTRATO P/ORQUIDEAS BOLSA PEQUEÑA",
+        producto: "SUSTRATO P/ORQUIDEAS BOLSA PEQUEÑA",
         codigo_de_barras: "#¡VALOR!",
         codigo: 405,
         precio: 6.0,
-        imagen: "../assets/categorias/sustratos/ORQUIDEAS.webp",
+        imagen: sustratoOrquideasBolsaPequena,
       },
       {
         id: 6,
-        nombre: "SUSTRATO BOCASHI",
+        producto: "SUSTRATO BOCASHI",
         codigo_de_barras: "#¡VALOR!",
         codigo: 391,
         precio: 50.0,
-        imagen: "../assets/categorias/sustratos/BOCASHI.webp",
+        imagen: sustratoBocashi,
       },
       {
         id: 7,
-        nombre: "MIX DE GRAVA ORNAMENTAL-FINA",
+        producto: "MIX DE GRAVA ORNAMENTAL-FINA",
         codigo_de_barras: "#¡VALOR!",
         codigo: 415,
         precio: 25.0,
-        imagen: "../assets/categorias/sustratos/GRAVA ORNAMENTAL FINA.webp",
+        imagen: gravaOrnamentalFina,
       },
     ],
   },

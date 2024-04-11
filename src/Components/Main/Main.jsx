@@ -26,12 +26,12 @@ export default function Main() {
           <strong>Categorías:</strong>
         </h1>
         <div className="flex justify-center   ">
-        <div className=" grid  lg:gap-10 md:grid-cols-2 md:gap-6 w-[90%] ">
-          <Categorias />
+          <div className=" grid  lg:gap-10 md:grid-cols-2 md:gap-6 w-[90%] ">
+            <Categorias />
+          </div>
         </div>
       </div>
-      </div>
-      
+
       <div>
         <h1 className=" text-[30px] px-20">
           <strong>Proceso de Siembra y Recolección</strong>

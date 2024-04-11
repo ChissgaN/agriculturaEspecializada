@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import NavBar from "../NavBar";
 import Verduras from "../../assets/agricultura/verduras1.jpg";
 import ProductCard from "./ProductCard";
 import categorias from "../../scripts/products";
 import categoria from "../../../public/categorias.json";
 import albaca from "../../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp";
+import { Button, ButtonGroup } from "@nextui-org/react";
+import ScrollToTopButton from "../ScrollToTop";
 
 const PagesCards = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("aromaticas");
   const [selectedSortOption, setSelectedSortOption] = useState("default");
+  const [showAllProducts, setShowAllProducts] = useState(false);
+  const [loadedCards, setLoadedCards] = useState(6);
+  const [loading, setLoading] = useState(false);
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
@@ -21,8 +26,41 @@ const PagesCards = () => {
   };
 
   const handleCategoryClick = (categoria) => {
-    setSelectedCategory(categoria);
+    if (categoria === "Mostrar Todo") {
+      setShowAllProducts(true);
+    } else {
+      setSelectedCategory(categoria);
+      console.log(setSelectedCategory(categoria));
+      setShowAllProducts(false);
+    }
+    setLoadedCards(6);
+    console.log("Categoría seleccionada:", categoria);
   };
+
+  useEffect(() => {
+    function handleScroll() {
+      if (
+        window.innerHeight + document.documentElement.scrollTop !==
+          document.documentElement.offsetHeight ||
+        loading
+      ) {
+        return;
+      }
+      setLoading(true);
+    }
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [loading]);
+
+  useEffect(() => {
+    if (!loading) return;
+
+    setTimeout(() => {
+      setLoadedCards((prev) => prev + 6);
+      setLoading(false);
+    }, 500);
+  }, [loading]);
 
   let sortedProducts = [];
 
@@ -76,16 +114,18 @@ const PagesCards = () => {
           alt=""
         />
         <div className="absolute text-white font-extrabold text-[60px] max-lg:text-[50px] max-md:text-[40px] max-sm:text-[30px] ">
-          VERDURAS
+          {selectedCategory.toUpperCase()}
         </div>
       </section>
       <section className="container mx-auto p-4 w-[85%]">
         <div className="flex justify-between items-center">
-          <h1 className="text-3xl font-semibold my-10">Verduras</h1>
+          <h1 className="text-3xl font-semibold my-10">
+            {selectedCategory.toUpperCase()}
+          </h1>
           <div className="flex gap-5">
             <input
               type="text"
-              placeholder="Buscar verduras..."
+              placeholder={`Buscar ${selectedCategory}...`}
               value={searchTerm}
               onChange={handleSearchChange}
               className="h-fit px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
@@ -108,13 +148,13 @@ const PagesCards = () => {
         </div>
       </section>
       <section className="container mx-auto p-4 w-[85%] flex">
-        <div className=" container w-[20%] bg-white h-screen py-4 ">
+        <div className="container w-[20%] bg-white h-screen py-4 sticky top-[130px]">
           <h2 className="text-xl font-semibold mb-4">Categorías</h2>
-          <ul className="space-y-2 ">
+          <ul className="space-y-2">
             {Object.keys(categorias[0]).map((nombreCategoria, index) => (
               <li
                 key={index}
-                className="flex items-center hover:bg-gray-200 hover:scale-105 rounded-md py-2 transition duration-300 ease-in-out pl-1 cursor-pointer"
+                className="flex items-center hover:bg-gray-200 hover:scale-105 rounded-md py-2 transition duration-300 ease-in-out pl-1 cursor-pointer focus:bg-gray-200"
                 onClick={() => handleCategoryClick(nombreCategoria)}
               >
                 <img
@@ -125,28 +165,86 @@ const PagesCards = () => {
                 <span>{categoria[index].tituloCategoria}</span>
               </li>
             ))}
+            <li
+              className="flex items-center hover:bg-gray-200 hover:scale-105 rounded-md py-2 transition duration-300 ease-in-out pl-1 cursor-pointer"
+              onClick={() => handleCategoryClick("Mostrar Todo")}
+            >
+              <span>Mostrar Todo</span>
+            </li>
           </ul>
         </div>
-        <div className="w-full py-4 ml-[10%]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 w-fit">
-            {sortedProducts
-              .filter((product) => {
-                return (
-                  searchTerm === "" ||
-                  product.producto
-                    .toLowerCase()
-                    .includes(searchTerm.toLowerCase())
-                );
-              })
-              .map((product) => (
-                <ProductCard
-                  key={product.id}
-                  product={product}
-                  openModal={openModal}
-                />
-              ))}
+        {!showAllProducts && (
+          <div className="w-full py-4 ml-[10%]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 w-fit">
+              {sortedProducts
+                .filter(
+                  (product, index) =>
+                    index < loadedCards &&
+                    (searchTerm === "" ||
+                      product.producto
+                        .toLowerCase()
+                        .includes(searchTerm.toLowerCase()))
+                )
+                .map((product) => (
+                  <ProductCard
+                    key={product.id}
+                    product={product}
+                    openModal={openModal}
+                  />
+                ))}
+            </div>
           </div>
-        </div>
+        )}
+        {showAllProducts && (
+          <div className="w-full py-4 ml-[10%]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 w-fit">
+              {Object.keys(categorias[0]).flatMap((category) =>
+                categorias[0][category]
+                  .filter((product, index) => index < loadedCards)
+                  .map((product) => (
+                    <ProductCard
+                      key={product.id}
+                      product={product}
+                      openModal={openModal}
+                    />
+                  ))
+              )}
+            </div>
+            {loading && (
+              <div className="flex justify-center">
+                <Button
+                  isLoading
+                  className="bg-green-600 text-white"
+                  color=""
+                  spinner={
+                    <svg
+                      className="animate-spin h-5 w-5 text-current"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      />
+                      <path
+                        className="opacity-75"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  }
+                >
+                  Loading
+                </Button>
+              </div>
+            )}
+          </div>
+        )}
       </section>
       {selectedProduct && (
         <div
@@ -156,7 +254,7 @@ const PagesCards = () => {
           <div className="bg-white py-8 px-6 rounded-lg w-[50%] h-[70%] flex gap-6 max-sm:w-[95%] max-sm:px-3 sm:w-[80%] sm:h-[70%] ">
             <div className="h-[100%] w-[50%] max-sm:w-[224px]  max-sm:h-[304px] sm:w-[60%]  sm:h-[80%] md:w-[276px] max-md:h-[390px] max-md:w-[276px] md:h-[390px] ">
               <img
-                src={albaca}
+                src={selectedProduct.imagen}
                 alt={selectedProduct.nombre}
                 className="w-full h-full  object-cover rounded-md mb-4  max-sm:w-[224px]  max-sm:h-[304px] max-md:h-[390px] max-md:w-[276px]"
               />
@@ -188,6 +286,7 @@ const PagesCards = () => {
           </div>
         </div>
       )}
+      <ScrollToTopButton />
     </>
   );
 };

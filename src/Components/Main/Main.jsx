@@ -5,7 +5,7 @@ import SliderImg from "../Slider";
 
 import Beginning from "../beginning";
 import Footer from "../Footer/Footer";
-import { Categorias } from "../CatalogoSemillas/Categorias";
+import { Categorias } from "../CatalogoSemillas/index";
 
 export default function Main() {
   return (

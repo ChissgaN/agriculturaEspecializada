@@ -14,6 +14,10 @@ import oregano from "../assets/categorias/aromaticas/OREGANO ENERO 2024.webp";
 import perejil from "../assets/categorias/aromaticas/PEREJIL 05JUNIO2023.webp";
 import romero from "../assets/categorias/aromaticas/ROMERO MARZO 2023.webp";
 import tomillo from "../assets/categorias/aromaticas/TOMILLO 01MARZO2024.webp";
+import bermudaGrass from "../assets/categorias/cesped/CESPED BERMUDA-CLIMA CALIDO.webp";
+import grama25g from "../assets/categorias/cesped/GRAMA 25 g ENERO 2024.webp";
+import gramaCompetenciaDeportiva1k from "../assets/categorias/cesped/GRAMA COMPETENCIA DEPORTIVA 1 kg 11 01 2022.webp";
+import gramaParaSombra from "../assets/categorias/cesped/CESPED PARA SOMBRA.webp";
 
 const categorias = [
   {
@@ -157,7 +161,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 292,
         precio: 130.0,
-        imagen: "../assets/categorias/cesped/CESPED BERMUDA-CLIMA CALIDO.webp",
+        imagen: bermudaGrass,
       },
       {
         id: 2,
@@ -165,7 +169,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 297,
         precio: 30.0,
-        imagen: "../assets/categorias/cesped/GRAMA 25 g ENERO 2024.webp",
+        imagen: grama25g,
       },
       {
         id: 3,
@@ -173,8 +177,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 302,
         precio: 225.0,
-        imagen:
-          "../assets/categorias/cesped/GRAMA COMPETENCIA DEPORTIVA 1 kg 11 01 2022.webp",
+        imagen: gramaCompetenciaDeportiva1k,
       },
       {
         id: 4,
@@ -182,7 +185,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 431,
         precio: 82.0,
-        imagen: "../assets/categorias/cesped/CESPED PARA SOMBRA.webp",
+        imagen: gramaParaSombra,
       },
     ],
 

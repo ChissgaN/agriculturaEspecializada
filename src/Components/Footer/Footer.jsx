@@ -66,26 +66,26 @@ export default function Footer() {
         <div className="flex justify-around">
           <div>
             <ul className="cursor-pointer">
-              <h4 class="mb-2 ">
+              <h4 className="mb-2 ">
                 <strong>Comprar Productos </strong>
               </h4>
 
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Frutas
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
                 Ipot
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
                 Flores
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
                 Arbol
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
                 Productos
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300  ">
                 Hortalizas
               </li>
             </ul>
@@ -93,18 +93,18 @@ export default function Footer() {
 
           <div>
             <ul className="cursor-pointer">
-              <h4 class="mb-2">
+              <h4 className="mb-2">
                 <strong>Comprar Productos </strong>
               </h4>
 
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Todos
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Frutas
               </li>
 
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Productos
               </li>
             </ul>
@@ -112,26 +112,26 @@ export default function Footer() {
 
           <div>
             <ul className="cursor-pointer">
-              <h4 class="mb-2">
+              <h4 className="mb-2">
                 <strong>Comprar Productos </strong>
               </h4>
 
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Todos
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Frutas
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Ipot
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Flores
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Arbol
               </li>
-              <li class="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
+              <li className="transform hover:scale-[1.2] transition duration-300 ease-in-out h-full  hover:text-green-300 ">
                 Productos
               </li>
             </ul>

@@ -9,7 +9,7 @@ export const Informacion = () => {
   return (
     <>
 
-      <div className="grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6 w-[90%]">
+      <div className="grid lg:grid-cols-3 lg:gap-10 md:grid-cols-2 md:gap-6 w-[80%]">
         <Index
           procesoImg={preparaSuelo}
           tituloProceso="Preparación del suelo:"

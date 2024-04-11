@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import menuT from "/menuToggle.svg";
 import logo from "/logo.png";
 import car from "/icon-cart.svg";
@@ -11,7 +12,7 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
+  /* Link, */
   Button,
 } from "@nextui-org/react";
 
@@ -37,7 +38,9 @@ export default function NavBar() {
             className="sm:hidden mt-5"
           />
           <NavbarBrand>
-            <img src={logo} alt="Logo" className="w-[120px] h-[55px]  " />
+            <Link to="/">
+              <img src={logo} alt="Logo" className="w-[120px] h-[55px]" />
+            </Link>
           </NavbarBrand>
         </NavbarContent>
 

@@ -11,7 +11,7 @@ const ProductCard = ({ product, openModal }) => {
       onClick={handleClick}
     >
       <img
-        src={albaca}
+        src={product.imagen}
         alt={product.producto}
         className="w-full h-fit object-cover rounded-xl max-w-[230px] max-h-[306px] "
       />

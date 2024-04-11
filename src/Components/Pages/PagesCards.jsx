@@ -6,6 +6,7 @@ import categorias from "../../scripts/products";
 import categoria from "../../../public/categorias.json";
 import albaca from "../../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp";
 import { Button, ButtonGroup } from "@nextui-org/react";
+import ScrollToTopButton from "../ScrollToTop";
 
 const PagesCards = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -13,7 +14,7 @@ const PagesCards = () => {
   const [selectedCategory, setSelectedCategory] = useState("aromaticas");
   const [selectedSortOption, setSelectedSortOption] = useState("default");
   const [showAllProducts, setShowAllProducts] = useState(false);
-  const [loadedCards, setLoadedCards] = useState(6); // Number of cards initially loaded
+  const [loadedCards, setLoadedCards] = useState(6);
   const [loading, setLoading] = useState(false);
 
   const handleSearchChange = (event) => {
@@ -29,9 +30,11 @@ const PagesCards = () => {
       setShowAllProducts(true);
     } else {
       setSelectedCategory(categoria);
+      console.log(setSelectedCategory(categoria));
       setShowAllProducts(false);
     }
-    setLoadedCards(6); // Reset loaded cards when category changes
+    setLoadedCards(6);
+    console.log("Categoría seleccionada:", categoria);
   };
 
   useEffect(() => {
@@ -53,11 +56,10 @@ const PagesCards = () => {
   useEffect(() => {
     if (!loading) return;
 
-    // Simulate loading delay
     setTimeout(() => {
-      setLoadedCards((prev) => prev + 6); // Load 6 more cards
+      setLoadedCards((prev) => prev + 6);
       setLoading(false);
-    }, 500); // Adjust loading delay as needed
+    }, 500);
   }, [loading]);
 
   let sortedProducts = [];
@@ -112,16 +114,18 @@ const PagesCards = () => {
           alt=""
         />
         <div className="absolute text-white font-extrabold text-[60px] max-lg:text-[50px] max-md:text-[40px] max-sm:text-[30px] ">
-          VERDURAS
+          {selectedCategory.toUpperCase()}
         </div>
       </section>
       <section className="container mx-auto p-4 w-[85%]">
         <div className="flex justify-between items-center">
-          <h1 className="text-3xl font-semibold my-10">Verduras</h1>
+          <h1 className="text-3xl font-semibold my-10">
+            {selectedCategory.toUpperCase()}
+          </h1>
           <div className="flex gap-5">
             <input
               type="text"
-              placeholder="Buscar verduras..."
+              placeholder={`Buscar ${selectedCategory}...`}
               value={searchTerm}
               onChange={handleSearchChange}
               className="h-fit px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
@@ -144,9 +148,9 @@ const PagesCards = () => {
         </div>
       </section>
       <section className="container mx-auto p-4 w-[85%] flex">
-        <div className=" container w-[20%] bg-white h-screen py-4 sticky">
+        <div className="container w-[20%] bg-white h-screen py-4 sticky top-[130px]">
           <h2 className="text-xl font-semibold mb-4">Categorías</h2>
-          <ul className="space-y-2 ">
+          <ul className="space-y-2">
             {Object.keys(categorias[0]).map((nombreCategoria, index) => (
               <li
                 key={index}
@@ -208,8 +212,6 @@ const PagesCards = () => {
             </div>
             {loading && (
               <div className="flex justify-center">
-                {" "}
-                {/* Aquí envolvemos el botón en un div flex y lo centramos horizontalmente */}
                 <Button
                   isLoading
                   className="bg-green-600 text-white"
@@ -252,7 +254,7 @@ const PagesCards = () => {
           <div className="bg-white py-8 px-6 rounded-lg w-[50%] h-[70%] flex gap-6 max-sm:w-[95%] max-sm:px-3 sm:w-[80%] sm:h-[70%] ">
             <div className="h-[100%] w-[50%] max-sm:w-[224px]  max-sm:h-[304px] sm:w-[60%]  sm:h-[80%] md:w-[276px] max-md:h-[390px] max-md:w-[276px] md:h-[390px] ">
               <img
-                src={albaca}
+                src={selectedProduct.imagen}
                 alt={selectedProduct.nombre}
                 className="w-full h-full  object-cover rounded-md mb-4  max-sm:w-[224px]  max-sm:h-[304px] max-md:h-[390px] max-md:w-[276px]"
               />
@@ -284,6 +286,7 @@ const PagesCards = () => {
           </div>
         </div>
       )}
+      <ScrollToTopButton />
     </>
   );
 };

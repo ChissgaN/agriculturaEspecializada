@@ -1,3 +1,22 @@
+import bulbos from "../assets/categorias/bulbos/5 BULBOS CALLA LILY.webp";
+import albahaca from "../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp";
+import albahacav from "../assets/categorias/aromaticas/ALBAHACA VIOLETA 2024.webp";
+import apio from "../assets/categorias/aromaticas/APIO 19 ENERO 2021.webp";
+import cilantro from "../assets/categorias/aromaticas/CILANTRO ENERO 2024.webp";
+import eneldo from "../assets/categorias/aromaticas/ENELDO DIC 2020.webp";
+import hinojo from "../assets/categorias/aromaticas/HINOJO ENERO 2024.webp";
+import manzanilla from "../assets/categorias/aromaticas/MANZANILLA 13OCT2022.webp";
+import melissa from "../assets/categorias/aromaticas/MELISSA 13 OCTUBRE 2022.webp";
+import menta from "../assets/categorias/aromaticas/MENTA 16 AGOSTO 2023.webp";
+import mixAromaticas from "../assets/categorias/aromaticas/MIX DE PLANTAS AROMATICAS.webp";
+import mixInfusiones from "../assets/categorias/aromaticas/MIX DE PLANTAS PARA INFUSIONES.webp";
+import oregano from "../assets/categorias/aromaticas/OREGANO ENERO 2024.webp";
+import perejil from "../assets/categorias/aromaticas/PEREJIL 05JUNIO2023.webp";
+import romero from "../assets/categorias/aromaticas/ROMERO MARZO 2023.webp";
+import tomillo from "../assets/categorias/aromaticas/TOMILLO 01MARZO2024.webp";
+
+// Si hay más categorías o imágenes, añade los imports aquí
+
 const categorias = [
   {
     aromaticas: [
@@ -7,7 +26,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 4,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ALBAHACA16AGOSTO2023.webp",
+        imagen: albahaca,
       },
       {
         id: 2,
@@ -15,7 +34,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 5,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ALBAHACA VIOLETA 2024.webp",
+        imagen: albahacav,
       },
       {
         id: 3,
@@ -23,7 +42,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 10,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/APIO 19 ENERO 2021.webp",
+        imagen: apio,
       },
       {
         id: 4,
@@ -31,7 +50,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 65,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/CILANTRO ENERO 2024.webp",
+        imagen: cilantro,
       },
       {
         id: 5,
@@ -39,7 +58,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 95,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ENELDO DIC 2020.webp",
+        imagen: eneldo,
       },
       {
         id: 6,
@@ -47,7 +66,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 162,
         precio: 30.0,
-        imagen: "../assets/categorias/aromaticas/HINOJO ENERO 2024.webp",
+        imagen: hinojo,
       },
       {
         id: 7,
@@ -55,7 +74,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 32,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/MANZANILLA 13OCT2022.webp",
+        imagen: manzanilla,
       },
       {
         id: 8,
@@ -63,7 +82,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 183,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/MELISSA 13 OCTUBRE 2022.webp",
+        imagen: melissa,
       },
       {
         id: 9,
@@ -71,7 +90,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 186,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/MENTA 16 AGOSTO 2023.webp",
+        imagen: menta,
       },
       {
         id: 10,
@@ -79,8 +98,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 410,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/aromaticas/MIX DE PLANTAS AROMATICAS.webp",
+        imagen: mixAromaticas,
       },
       {
         id: 11,
@@ -88,8 +106,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 408,
         precio: 37.0,
-        imagen:
-          "../assets/categorias/aromaticas/MIX DE PLANTAS PARA INFUSIONES.webp",
+        imagen: mixInfusiones,
       },
       {
         id: 12,
@@ -97,7 +114,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 194,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/OREGANO ENERO 2024.webp",
+        imagen: oregano,
       },
       {
         id: 13,
@@ -105,7 +122,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 207,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/PEREJIL 05JUNIO2023.webp",
+        imagen: perejil,
       },
       {
         id: 14,
@@ -113,7 +130,7 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 263,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/ROMERO MARZO 2023.webp",
+        imagen: romero,
       },
       {
         id: 15,
@@ -121,10 +138,9 @@ const categorias = [
         codigo_de_barras: "#¡VALOR!",
         codigo: 275,
         precio: 22.0,
-        imagen: "../assets/categorias/aromaticas/TOMILLO 01MARZO2024.webp",
+        imagen: tomillo,
       },
     ],
-
     bulbos: [
       {
         id: 1,
@@ -132,7 +148,7 @@ const categorias = [
         codigo_de_barras: "#¡DESCONOCIDO!",
         codigo: 416,
         precio: 75.0,
-        imagen: "../assets/categorias/bulbos/5 BULBOS CALLA LILY.webp",
+        imagen: bulbos,
       },
     ],
 
